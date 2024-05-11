@@ -1,0 +1,8 @@
+/dist/*
+/build/*
+.local
+/node_modules/**
+**/*.svg
+**/*.sh
+/public
+.vscode

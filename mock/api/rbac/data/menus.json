@@ -1,0 +1,4322 @@
+[
+  {
+    "id": "70001",
+    "name": "Language",
+    "code": "dep_language",
+    "parent_id": "0"
+  },
+  {
+    "id": "70002",
+    "name": "Change language (dev)",
+    "code": "dep_language_change",
+    "parent_id": "70001"
+  },
+  {
+    "id": "70003",
+    "name": "Get language (dev)",
+    "code": "dep_language_get",
+    "parent_id": "70001"
+  },
+  {
+    "id": "70004",
+    "name": "Dashboard",
+    "code": "dep_dashboard",
+    "parent_id": "0"
+  },
+  {
+    "id": "70005",
+    "name": "Device status (dev)",
+    "code": "dep_dashboard_getDeviceStatusByStoreCode",
+    "parent_id": "70004"
+  },
+  {
+    "id": "70006",
+    "name": "Plan status (dev)",
+    "code": "dep_dashboard_getPlanStatus",
+    "parent_id": "70004"
+  },
+  {
+    "id": "70007",
+    "name": "Store status (dev)",
+    "code": "dep_dashboard_stores",
+    "parent_id": "70004"
+  },
+  {
+    "id": "70171",
+    "name": "Device status (new)",
+    "code": "dep_dashboard_device_status",
+    "parent_id": "70004"
+  },
+  {
+    "id": "70172",
+    "name": "Plan status (new)",
+    "code": "dep_dashboard_plan_status",
+    "parent_id": "70004"
+  },
+  {
+    "id": "70173",
+    "name": "Programme status",
+    "code": "dep_dashboard_programme_status",
+    "parent_id": "70004"
+  },
+  {
+    "id": "70008",
+    "name": "Content Library",
+    "code": "dep_content_library",
+    "parent_id": "0"
+  },
+  {
+    "id": "70009",
+    "name": "Pictures and videos",
+    "code": "dep_content",
+    "parent_id": "70008"
+  },
+  {
+    "id": "70010",
+    "name": "Content list (dev)",
+    "code": "dep_content_materials",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70011",
+    "name": "Filter (dev)",
+    "code": "dep_content_materials_filters",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70012",
+    "name": "Get folder list (dev)",
+    "code": "dep_content_getFolderListByPFolder",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70013",
+    "name": "Get folder (dev)",
+    "code": "dep_content_getRootfolder",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70014",
+    "name": "Smart folder list (dev)",
+    "code": "dep_content_smart_folders",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70015",
+    "name": "Smart folder details (dev)",
+    "code": "dep_content_smart_folders_findById",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70016",
+    "name": "Get materials (dev)",
+    "code": "dep_content_materials_findById",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70017",
+    "name": "Edit materials",
+    "code": "dep_content_materials_updateById",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70018",
+    "name": "Batch delete",
+    "code": "dep_content_materials_batch",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70019",
+    "name": "Batch copy",
+    "code": "dep_content_materials_copy_batch",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70020",
+    "name": "Download",
+    "code": "dep_content_materials_download",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70021",
+    "name": "Batch move",
+    "code": "dep_content_materials_move_batch",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70022",
+    "name": "Upload",
+    "code": "dep_content_materials_upload",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70023",
+    "name": "Batch upload",
+    "code": "dep_content_materials_upload_batch",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70024",
+    "name": "Create sub-folder",
+    "code": "dep_content_folders_addFolderInPFolder",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70025",
+    "name": "Create folder",
+    "code": "dep_content_folders_addFullFolder",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70026",
+    "name": "Edit folder",
+    "code": "dep_content_folders_modifyFolderName",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70027",
+    "name": "Delete folder",
+    "code": "dep_content_folders_uneffectByFolderId",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70028",
+    "name": "Create smart folder",
+    "code": "dep_content_smart_folders_add",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70029",
+    "name": "Edit smart folder",
+    "code": "dep_content_smart_folders_updateById",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70030",
+    "name": "Delete smart folder",
+    "code": "dep_content_smart_folders_deleteById",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70031",
+    "name": "Smart folder conditions (dev)",
+    "code": "dep_content_smart_folders_conditions",
+    "parent_id": "70009"
+  },
+  {
+    "id": "1664447173997642600",
+    "name": "Upload Status",
+    "code": "dep_content_materials_upload_status",
+    "parent_id": "70009"
+  },
+  {
+    "id": "70032",
+    "name": "Tag management",
+    "code": "dep_content_library_tag",
+    "parent_id": "70008"
+  },
+  {
+    "id": "70033",
+    "name": "Tag list (dev)",
+    "code": "dep_content_library_tag_tags",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70034",
+    "name": "Latest use tag list (dev)",
+    "code": "dep_content_library_tag_tags_uses",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70035",
+    "name": "Get tag list (dev)",
+    "code": "dep_content_library_tag_tag_groups",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70036",
+    "name": "Create tag",
+    "code": "dep_content_library_tag_tags_add",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70037",
+    "name": "Edit tag",
+    "code": "dep_content_library_tag_tags_update",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70038",
+    "name": "Delete tag",
+    "code": "dep_content_library_tag_tags_delete",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70039",
+    "name": "Batch delete tag",
+    "code": "dep_content_library_tag_tags_batch",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70040",
+    "name": "Delete recent tag",
+    "code": "dep_content_library_tag_tags_uses_delete",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70041",
+    "name": "Create tag group",
+    "code": "dep_content_library_tag_groups_add",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70042",
+    "name": "Edit tag group",
+    "code": "dep_content_library_tag_groups_update",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70043",
+    "name": "Delete tag group",
+    "code": "dep_content_library_tag_groups_delete",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70044",
+    "name": "Add tag to group",
+    "code": "dep_content_library_tag_groups_tags_add",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70045",
+    "name": "Delete tag from group",
+    "code": "dep_content_library_tag_groups_tags_delete",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70046",
+    "name": "Edit tag in group",
+    "code": "dep_content_library_tag_groups_tags_update",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70047",
+    "name": "Batch delete tag group",
+    "code": "dep_content_library_tag_groups_batch",
+    "parent_id": "70032"
+  },
+  {
+    "id": "70048",
+    "name": "Recycle bin",
+    "code": "dep_recycle_bin",
+    "parent_id": "70008"
+  },
+  {
+    "id": "70049",
+    "name": "Clear recycle bin",
+    "code": "dep_recycle_bin_folders_clear",
+    "parent_id": "70048"
+  },
+  {
+    "id": "70050",
+    "name": "Restore material",
+    "code": "dep_recycle_bin_materials_restore_batch",
+    "parent_id": "70048"
+  },
+  {
+    "id": "70160",
+    "name": "Audios",
+    "code": "dep_content_audio",
+    "parent_id": "70008"
+  },
+  {
+    "id": "70161",
+    "name": "Upload audio cover",
+    "code": "dep_content_audio_uploads_materials_cover",
+    "parent_id": "70160"
+  },
+  {
+    "id": "70162",
+    "name": "Delete audio cover",
+    "code": "dep_content_audio_delete_materials_cover",
+    "parent_id": "70160"
+  },
+  {
+    "id": "70163",
+    "name": "Get audio all folders",
+    "code": "dep_content_audio_folders_allFolders",
+    "parent_id": "70160"
+  },
+  {
+    "id": "70164",
+    "name": "Get audio folders List",
+    "code": "dep_content_audio_folders_getFolderListByPFolder",
+    "parent_id": "70160"
+  },
+  {
+    "id": "70165",
+    "name": "Get audio folders",
+    "code": "dep_content_audio_folders_getRootfolder",
+    "parent_id": "70160"
+  },
+  {
+    "id": "70051",
+    "name": "Marketing Plan",
+    "code": "dep_marketing_plan",
+    "parent_id": "0"
+  },
+  {
+    "id": "70052",
+    "name": "Programme Template",
+    "code": "dep_template",
+    "parent_id": "70051"
+  },
+  {
+    "id": "70053",
+    "name": "Template detail list (dev)",
+    "code": "dep_template_detail_list",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70054",
+    "name": "Get resolution (dev)",
+    "code": "dep_template_get_all_resolution",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70055",
+    "name": "Search template (dev)",
+    "code": "dep_template_get_by_id",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70056",
+    "name": "Get update log (dev)",
+    "code": "dep_template_updateLogs_listUpdateLogs",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70057",
+    "name": "Template list",
+    "code": "dep_template_list",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70058",
+    "name": "Create template",
+    "code": "dep_template_create",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70059",
+    "name": "Delete template",
+    "code": "dep_template_delete",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70060",
+    "name": "Save draft",
+    "code": "dep_template_save_draft",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70061",
+    "name": "Edit template",
+    "code": "dep_template_update",
+    "parent_id": "70052"
+  },
+  {
+    "id": "70062",
+    "name": "Programme Library",
+    "code": "dep_programme",
+    "parent_id": "70051"
+  },
+  {
+    "id": "70063",
+    "name": "Get program details (dev)",
+    "code": "dep_programme_get_by_id",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70064",
+    "name": "Programme list (dev)",
+    "code": "dep_programme_list",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70065",
+    "name": "Get update log (dev)",
+    "code": "dep_programme_pdateLogs_listUpdateLogs",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70066",
+    "name": "Copy programme",
+    "code": "dep_programme_copy",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70067",
+    "name": "Create programme",
+    "code": "dep_programme_create",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70068",
+    "name": "Delete programme",
+    "code": "dep_programme_delete",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70069",
+    "name": "Edit programme",
+    "code": "dep_programme_update",
+    "parent_id": "70062"
+  },
+  {
+    "id": "1666232188414404700",
+    "name": "Get programme status",
+    "code": "dep_programme_status",
+    "parent_id": "70062"
+  },
+  {
+    "id": "70070",
+    "name": "Programme Shedule",
+    "code": "dep_schedule",
+    "parent_id": "70051"
+  },
+  {
+    "id": "70071",
+    "name": "Get device list (dev)",
+    "code": "dep_schedule_device_list",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70072",
+    "name": "Get schedule details (dev)",
+    "code": "dep_schedule_get_by_id",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70073",
+    "name": "Report (dev)",
+    "code": "dep_schedule_reports",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70074",
+    "name": "Broadcast list in report (dev)",
+    "code": "dep_schedule_reports_plays",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70075",
+    "name": "Delivery Progress (dev)",
+    "code": "dep_schedule_reports_progress",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70076",
+    "name": "Schedule list (dev)",
+    "code": "dep_schedule_list",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70077",
+    "name": "Push delete message (dev)",
+    "code": "dep_schedule_cds_push_delete",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70078",
+    "name": "Get update log (dev)",
+    "code": "dep_schedule_updateLogs_listUpdateLogs",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70079",
+    "name": "Check schedule conflict (dev)",
+    "code": "dep_schedule_check_schedule",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70080",
+    "name": "Create schedule",
+    "code": "dep_schedule_create",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70081",
+    "name": "Delete schedule",
+    "code": "dep_schedule_delete",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70082",
+    "name": "Offline schedule",
+    "code": "dep_schedule_offline",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70083",
+    "name": "Edit schedule",
+    "code": "dep_schedule_update",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70084",
+    "name": "Estemate download time (dev)",
+    "code": "dep_schedule_download_time",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70085",
+    "name": "POS/SCO download progress (dev)",
+    "code": "dep_schedule_device_detail",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70156",
+    "name": "ESL Products List",
+    "code": "dep_schedule_esl_product",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70157",
+    "name": "POS/SCO download logs (dev)",
+    "code": "dep_schedule_device_download_log",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70158",
+    "name": "ESL Device Resolution",
+    "code": "dep_schedule_esl_resolution",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70159",
+    "name": "POS/SCO download logs_all (dev)",
+    "code": "dep_schedule_device_download_log_all",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70174",
+    "name": "Add schedule",
+    "code": "dep_base_schedule_id",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70175",
+    "name": "Schedule detail",
+    "code": "dep_base_schedule",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70176",
+    "name": "Schedule conflicts list",
+    "code": "dep_base_schedule_conflicts",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70177",
+    "name": "Schedule items list",
+    "code": "dep_base_schedule_extended_items",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70178",
+    "name": "Schedule programmes list",
+    "code": "dep_base_schedule_extended_programmes",
+    "parent_id": "70070"
+  },
+  {
+    "id": "1667454781570228500",
+    "name": "POS/SCO download progress (dev) - new",
+    "code": "dep_schedule_device_detail_new",
+    "parent_id": "70070"
+  },
+  {
+    "id": "1672901892240155000",
+    "name": "Delete Conflicts Devices",
+    "code": "dep_schedule_device_delete_conflicts",
+    "parent_id": "70070"
+  },
+  {
+    "id": "1672901892250165300",
+    "name": "Check Schedule",
+    "code": "dep_schedule_check",
+    "parent_id": "70070"
+  },
+  {
+    "id": "1675936015382595500",
+    "name": "Create schedule for EU POS",
+    "code": "dep_schedule_create_eu_pos",
+    "parent_id": "70070"
+  },
+  {
+    "id": "1675936015397798700",
+    "name": "Schedule Time Period Verify",
+    "code": "dep_schedule_time_period_verify",
+    "parent_id": "70070"
+  },
+  {
+    "id": "1676368703727344300",
+    "name": "Get Store List of schedule for EU POS",
+    "code": "dep_schedule_store_list_eu_pos",
+    "parent_id": "70070"
+  },
+  {
+    "id": "70086",
+    "name": "Spot Plan",
+    "code": "dep_spot_plan",
+    "parent_id": "70051"
+  },
+  {
+    "id": "70087",
+    "name": "Search Calendar (dev)",
+    "code": "dep_spot_plan_schedule_calendar_interval",
+    "parent_id": "70086"
+  },
+  {
+    "id": "70088",
+    "name": "Schedule details (dev)",
+    "code": "dep_spot_plan_schedule_get_by_id",
+    "parent_id": "70086"
+  },
+  {
+    "id": "70089",
+    "name": "Programme Tag",
+    "code": "dep_program_tag",
+    "parent_id": "70051"
+  },
+  {
+    "id": "70090",
+    "name": "Tag list (dev)",
+    "code": "dep_program_tag_tags",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70091",
+    "name": "Latest use tag list (dev)",
+    "code": "dep_program_tag_tags_uses",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70092",
+    "name": "Get tag list (dev)",
+    "code": "dep_program_tag_tag_groups",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70093",
+    "name": "Create programme tag",
+    "code": "dep_program_tag_tags_add",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70094",
+    "name": "Edit programme tag",
+    "code": "dep_program_tag_tags_update",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70095",
+    "name": "Delete programme tag",
+    "code": "dep_program_tag_tags_delete",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70096",
+    "name": "Batch delete tag",
+    "code": "dep_program_tag_tags_batch",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70097",
+    "name": "Delete latest tag",
+    "code": "dep_program_tag_tags_uses_delete",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70098",
+    "name": "Create tag group",
+    "code": "dep_program_tag_groups_add",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70099",
+    "name": "Edit tag group",
+    "code": "dep_program_tag_groups_update",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70100",
+    "name": "Delete tag group",
+    "code": "dep_program_tag_groups_delete",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70104",
+    "name": "Batch delete tag group",
+    "code": "dep_program_tag_groups_batch",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70153",
+    "name": "Add tag to group",
+    "code": "dep_program_tag_groups_tags_add",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70154",
+    "name": "Delete tag from group",
+    "code": "dep_program_tag_groups_tags_delete",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70155",
+    "name": "Edit tag in group",
+    "code": "dep_program_tag_groups_tags_update",
+    "parent_id": "70089"
+  },
+  {
+    "id": "70105",
+    "name": "Promotion Management",
+    "code": "dep_promotion_h5",
+    "parent_id": "70051"
+  },
+  {
+    "id": "70106",
+    "name": "Search promotion page (dev)",
+    "code": "dep_promotion_h5_promotion",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70107",
+    "name": "Create promotion page",
+    "code": "dep_promotion_h5_promotion_add",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70108",
+    "name": "Edit promotion page",
+    "code": "dep_promotion_h5_promotion_update",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70109",
+    "name": "Delete promotion page",
+    "code": "dep_promotion_h5_promotion_delete",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70110",
+    "name": "Promotion page list (dev)",
+    "code": "dep_promotion_h5_promotion_findById",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70111",
+    "name": "Event list (dev)",
+    "code": "dep_promotion_h5_promotion_event_list",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70112",
+    "name": "Promotion list (dev)",
+    "code": "dep_promotion_h5_promotion_option",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70113",
+    "name": "Preview ",
+    "code": "dep_promotion_h5_promotion_qrCode",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70114",
+    "name": "Search promotion name",
+    "code": "dep_promotion_h5_promotion_activity",
+    "parent_id": "70105"
+  },
+  {
+    "id": "70115",
+    "name": "Resource Management",
+    "code": "dep_resource",
+    "parent_id": "0"
+  },
+  {
+    "id": "70116",
+    "name": "Resource List",
+    "code": "dep_resource_list",
+    "parent_id": "70115"
+  },
+  {
+    "id": "70117",
+    "name": "Device list (dev)",
+    "code": "dep_resource_list_devices",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70118",
+    "name": "Device information (dev)",
+    "code": "dep_resource_list_devices_findById",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70119",
+    "name": "Device resolution list (dev)",
+    "code": "dep_resource_list_devices_resolutions",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70120",
+    "name": "Get update log (dev)",
+    "code": "dep_resource_list_updateLogs_listUpdateLogs",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70121",
+    "name": "Get device tag (dev)",
+    "code": "dep_resource_list_tag_entity_get_entity_tag",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70122",
+    "name": "Delete device",
+    "code": "dep_resource_list_devices_delete",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70123",
+    "name": "Add tag",
+    "code": "dep_resource_list_tag_entity_binding",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70124",
+    "name": "Batch add tag",
+    "code": "dep_resource_list_tag_entity_binding_batch",
+    "parent_id": "70116"
+  },
+  {
+    "id": "1664447173965645300",
+    "name": "APK Event Logs",
+    "code": "dep_apk_event_logs",
+    "parent_id": "70116"
+  },
+  {
+    "id": "1664447173981645300",
+    "name": "APK Screenshot",
+    "code": "dep_apk_screenshot",
+    "parent_id": "70116"
+  },
+  {
+    "id": "1668566763849754100",
+    "name": "Device Export",
+    "code": "dep_resource_list_devices_export",
+    "parent_id": "70116"
+  },
+  {
+    "id": "1668566763849860900",
+    "name": "Device Edit",
+    "code": "dep_resource_list_devices_edit",
+    "parent_id": "70116"
+  },
+  {
+    "id": "70125",
+    "name": "Resource Tag",
+    "code": "dep_resource_tag",
+    "parent_id": "70115"
+  },
+  {
+    "id": "70126",
+    "name": "Tag list (dev)",
+    "code": "dep_resource_tag_tags",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70127",
+    "name": "Latest use tag list (dev)",
+    "code": "dep_resource_tag_tags_uses",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70128",
+    "name": "Get tag list (dev)",
+    "code": "dep_resource_tag_groups",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70129",
+    "name": "Create device tag",
+    "code": "dep_resource_tag_tags_add",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70130",
+    "name": "Edit device tag",
+    "code": "dep_resource_tag_tags_update",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70131",
+    "name": "Delete device tag",
+    "code": "dep_resource_tag_tags_delete",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70132",
+    "name": "Batch delete device tag",
+    "code": "dep_resource_tag_tags_batch",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70133",
+    "name": "Delete latest tag",
+    "code": "dep_resource_tag_tags_uses_delete",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70134",
+    "name": "Create tag group",
+    "code": "dep_resource_tag_groups_add",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70135",
+    "name": "Edit tag group",
+    "code": "dep_resource_tag_groups_update",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70136",
+    "name": "Delete tag group",
+    "code": "dep_resource_tag_groups_delete",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70137",
+    "name": "Add tag to group",
+    "code": "dep_resource_tag_groups_tags_add",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70138",
+    "name": "Delete tag from group",
+    "code": "dep_resource_tag_groups_tags_delete",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70139",
+    "name": "Edit tag in group",
+    "code": "dep_resource_tag_groups_tags_update",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70140",
+    "name": "Batch delete tag group",
+    "code": "dep_resource_tag_groups_batch",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70141",
+    "name": "Bind device",
+    "code": "dep_resource_tag_binding_entity",
+    "parent_id": "70125"
+  },
+  {
+    "id": "70143",
+    "name": "System Setting",
+    "code": "dep_setting",
+    "parent_id": "0"
+  },
+  {
+    "id": "70144",
+    "name": "Agent list (dev)",
+    "code": "dep_setting_agent_detail",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70145",
+    "name": "Edit agent",
+    "code": "dep_setting_agent_detail_update",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70146",
+    "name": "Delete agent",
+    "code": "dep_setting_agent_detail_delete",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70147",
+    "name": "Import device",
+    "code": "dep_setting_import_agent_pos",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70148",
+    "name": "Search device (dev)",
+    "code": "dep_setting_import_device",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70149",
+    "name": "Add device",
+    "code": "dep_setting_import_device_add",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70150",
+    "name": "Delete device",
+    "code": "dep_setting_import_device_delete",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70151",
+    "name": "Batch save",
+    "code": "dep_setting_import_device_batch",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70152",
+    "name": "Import device and review",
+    "code": "dep_setting_import_device_judge_excel",
+    "parent_id": "70143"
+  },
+  {
+    "id": "1664447173785558100",
+    "name": "APK Version",
+    "code": "dep_apk_version",
+    "parent_id": "70143"
+  },
+  {
+    "id": "1664447173796452500",
+    "name": "APK Version Download",
+    "code": "dep_apk_version_download",
+    "parent_id": "1664447173785558100"
+  },
+  {
+    "id": "1664447173796560800",
+    "name": "APK Version Delete",
+    "code": "dep_apk_version_delete",
+    "parent_id": "1664447173785558100"
+  },
+  {
+    "id": "1664447173811363600",
+    "name": "APK Version List",
+    "code": "dep_apk_version_list",
+    "parent_id": "1664447173785558100"
+  },
+  {
+    "id": "1664447173826582000",
+    "name": "APK Version Save",
+    "code": "dep_apk_version_save",
+    "parent_id": "1664447173785558100"
+  },
+  {
+    "id": "1664447173841615600",
+    "name": "APK Version Selection",
+    "code": "dep_apk_version_selection",
+    "parent_id": "1664447173785558100"
+  },
+  {
+    "id": "1664447173857103800",
+    "name": "APK Version Upload",
+    "code": "dep_apk_version_upload",
+    "parent_id": "1664447173785558100"
+  },
+  {
+    "id": "1664447173873133900",
+    "name": "APK Setup",
+    "code": "dep_apk_setup",
+    "parent_id": "70143"
+  },
+  {
+    "id": "1664447173888103500",
+    "name": "APK Setup Schedule Save",
+    "code": "dep_apk_setup_submit",
+    "parent_id": "1664447173873133900"
+  },
+  {
+    "id": "1664447173903136900",
+    "name": "APK Setup Schedule Delete",
+    "code": "dep_apk_setup_delete",
+    "parent_id": "1664447173873133900"
+  },
+  {
+    "id": "1664447173919102900",
+    "name": "APK Setup Schedule Detail",
+    "code": "dep_apk_setup_detail",
+    "parent_id": "1664447173873133900"
+  },
+  {
+    "id": "1664447173934133500",
+    "name": "APK Setup Schedule List",
+    "code": "dep_apk_setup_list",
+    "parent_id": "1664447173873133900"
+  },
+  {
+    "id": "1664447173949611800",
+    "name": "APK Setup Schedule Status",
+    "code": "dep_apk_setup_status",
+    "parent_id": "1664447173873133900"
+  },
+  {
+    "id": "1668566763848723700",
+    "name": "Agent Export",
+    "code": "dep_setting_agent_export",
+    "parent_id": "70143"
+  },
+  {
+    "id": "70166",
+    "name": "Audios",
+    "code": "dep_audio",
+    "parent_id": "0"
+  },
+  {
+    "id": "70167",
+    "name": "Audios List",
+    "code": "dep_audio_list",
+    "parent_id": "70166"
+  },
+  {
+    "id": "70168",
+    "name": "Get program details (dev)",
+    "code": "dep_audio_programmes_materials",
+    "parent_id": "70167"
+  },
+  {
+    "id": "70169",
+    "name": "Audios Shedule",
+    "code": "dep_audio_schedule",
+    "parent_id": "70166"
+  },
+  {
+    "id": "70170",
+    "name": "Audios Spot Plan",
+    "code": "dep_audio_spot_plan",
+    "parent_id": "70166"
+  },
+  {
+    "id": "70187",
+    "name": "Schedule Review",
+    "code": "dep_schedule_review",
+    "parent_id": "0"
+  },
+  {
+    "id": "70179",
+    "name": "Schedule to be approved list",
+    "code": "dep_schedule_to_be_approved_list",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70180",
+    "name": "Schedule to be approved detail",
+    "code": "dep_schedule_to_be_approved_detail",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70181",
+    "name": "Schedule approval",
+    "code": "dep_schedule_approval",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70182",
+    "name": "Schedule reject",
+    "code": "dep_schedule_reject",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70183",
+    "name": "Schedule approval batch",
+    "code": "dep_schedule_approval_batch",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70184",
+    "name": "Schedule reject batch",
+    "code": "dep_schedule_reject_batch",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70185",
+    "name": "Schedule list status",
+    "code": "dep_base_schedule_list_status",
+    "parent_id": "70187"
+  },
+  {
+    "id": "70186",
+    "name": "Schedule approved log",
+    "code": "dep_schedule_approval_log",
+    "parent_id": "70187"
+  },
+  {
+    "id": "1663655935980597200",
+    "name": "Default Image Setting",
+    "code": "dep_default_image_setting",
+    "parent_id": "0"
+  },
+  {
+    "id": "1663655935980677700",
+    "name": "Default Image Setting List",
+    "code": "dep_default_image_setting_list",
+    "parent_id": "1663655935980597200"
+  },
+  {
+    "id": "1663655935990894500",
+    "name": "Default Image Setting View",
+    "code": "dep_default_image_setting_view",
+    "parent_id": "1663655935980597200"
+  },
+  {
+    "id": "1663655936006082600",
+    "name": "Default Image Setting Update",
+    "code": "dep_default_image_setting_update",
+    "parent_id": "1663655935980597200"
+  },
+  {
+    "id": "1663655936022036900",
+    "name": "Default Image Setting Delete",
+    "code": "dep_default_image_setting_delete",
+    "parent_id": "1663655935980597200"
+  },
+  {
+    "id": "1673331349549043300",
+    "name": "Device Type",
+    "code": "dep_device_type",
+    "parent_id": "0"
+  },
+  {
+    "id": "1673331349555644000",
+    "name": "Shelf",
+    "code": "dep_device_type_shelf",
+    "parent_id": "1673331349549043300"
+  },
+  {
+    "id": "1673331349571108300",
+    "name": "Cashier Dual Screen",
+    "code": "dep_device_type_cashier_dual_screen",
+    "parent_id": "1673331349549043300"
+  },
+  {
+    "id": "1673331349586766300",
+    "name": "SCO",
+    "code": "dep_device_type_sco",
+    "parent_id": "1673331349549043300"
+  },
+  {
+    "id": "1673331349602302200",
+    "name": "POS/SCO",
+    "code": "dep_device_type_pos_sco",
+    "parent_id": "1673331349549043300"
+  },
+  {
+    "id": "1673331349617269100",
+    "name": "Lenovo SCO",
+    "code": "dep_device_type_lenovo_sco",
+    "parent_id": "1673331349549043300"
+  },
+  {
+    "id": "1675936015413745500",
+    "name": "Store for POS",
+    "code": "dep_store_pos",
+    "parent_id": "0"
+  },
+  {
+    "id": "1676368703729953500",
+    "name": "Store List",
+    "code": "dep_store_pos_list",
+    "parent_id": "1675936015413745500"
+  },
+  {
+    "id": "1676368703729960600",
+    "name": "Update Store",
+    "code": "dep_store_pos_store_update",
+    "parent_id": "1676368703729953500"
+  },
+  {
+    "id": "1676368703744953400",
+    "name": "Get Store Detail",
+    "code": "dep_store_pos_store_detail",
+    "parent_id": "1676368703729953500"
+  },
+  {
+    "id": "1676368703760790900",
+    "name": "Delete Store",
+    "code": "dep_store_pos_store_delete",
+    "parent_id": "1676368703729953500"
+  },
+  {
+    "id": "1676368703775793700",
+    "name": "Get Store List",
+    "code": "dep_store_pos_store_list",
+    "parent_id": "1676368703729953500"
+  },
+  {
+    "id": "1676368703790826000",
+    "name": "Store Tag",
+    "code": "dep_store_pos_tag",
+    "parent_id": "1675936015413745500"
+  },
+  {
+    "id": "1676368703806365000",
+    "name": "Tag list (dev)",
+    "code": "dep_store_pos_tag_tags",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703822396200",
+    "name": "Latest use tag list (dev)",
+    "code": "dep_store_pos_tag_tags_uses",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703837188000",
+    "name": "Get tag list (dev)",
+    "code": "dep_store_pos_tag_tag_groups",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703853153200",
+    "name": "Create programme tag",
+    "code": "dep_store_pos_tag_tags_add",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703869154300",
+    "name": "Edit programme tag",
+    "code": "dep_store_pos_tag_tags_update",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703885185200",
+    "name": "Delete programme tag",
+    "code": "dep_store_pos_tag_tags_delete",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703900187400",
+    "name": "Batch delete tag",
+    "code": "dep_store_pos_tag_tags_batch",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703915184600",
+    "name": "Delete latest tag",
+    "code": "dep_store_pos_tag_tags_uses_delete",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703930731400",
+    "name": "Create tag group",
+    "code": "dep_store_pos_tag_groups_add",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703946701000",
+    "name": "Edit tag group",
+    "code": "dep_store_pos_tag_groups_update",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703962700400",
+    "name": "Delete tag group",
+    "code": "dep_store_pos_tag_groups_delete",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703977700100",
+    "name": "Add tag to group",
+    "code": "dep_store_pos_tag_groups_tags_add",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368703992700100",
+    "name": "Delete tag from group",
+    "code": "dep_store_pos_tag_groups_tags_delete",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368704007732400",
+    "name": "Edit tag in group",
+    "code": "dep_store_pos_tag_groups_tags_update",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "1676368704023701200",
+    "name": "Batch delete tag group",
+    "code": "dep_store_pos_tag_groups_batch",
+    "parent_id": "1676368703790826000"
+  },
+  {
+    "id": "101",
+    "name": "View",
+    "code": "query_user",
+    "parent_id": "100"
+  },
+  {
+    "id": "100",
+    "name": "User Management",
+    "code": "manage_user",
+    "parent_id": "0"
+  },
+  {
+    "id": "102",
+    "name": "Add",
+    "code": "add_user",
+    "parent_id": "100"
+  },
+  {
+    "id": "103",
+    "name": "Edit",
+    "code": "edit_user",
+    "parent_id": "100"
+  },
+  {
+    "id": "200",
+    "name": "Role Management",
+    "code": "manage_role",
+    "parent_id": "0"
+  },
+  {
+    "id": "300",
+    "name": "Tenant Management",
+    "code": "manage_tenant",
+    "parent_id": "0"
+  },
+  {
+    "id": "400",
+    "name": "Application Management",
+    "code": "manage_application",
+    "parent_id": "0"
+  },
+  {
+    "id": "500",
+    "name": "Functional Management",
+    "code": "manage_function",
+    "parent_id": "0"
+  },
+  {
+    "id": "600",
+    "name": "Entity Management",
+    "code": "manage_entity",
+    "parent_id": "0"
+  },
+  {
+    "id": "700",
+    "name": "Personal Information",
+    "code": "personal_center",
+    "parent_id": "0"
+  },
+  {
+    "id": "300015",
+    "name": "Source Data Configuration Type List",
+    "code": "rpa_source_data_configuration_type_list",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300014",
+    "name": "Source Data Configuration",
+    "code": "rpa_source_data_configuration_view",
+    "parent_id": "300002"
+  },
+  {
+    "id": "300002",
+    "name": "Central Datain",
+    "code": "rpa_central_datain_view",
+    "parent_id": "300001"
+  },
+  {
+    "id": "300001",
+    "name": "IT Operation",
+    "code": "rpa_it_operation_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "300016",
+    "name": "Source Data Configuration List",
+    "code": "rpa_source_data_configuration_list",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300017",
+    "name": "Source Data Configuration Add",
+    "code": "rpa_source_data_configuration_add",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300018",
+    "name": "Source Data Configuration Update",
+    "code": "rpa_source_data_configuration_update",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300019",
+    "name": "Source Data Configuration Delete",
+    "code": "rpa_source_data_configuration_delete",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300020",
+    "name": "Source Data Configuration Owners",
+    "code": "rpa_source_data_configuration_owners",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300021",
+    "name": "Source Data Configuration Ping",
+    "code": "rpa_source_data_configuration_ping",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300022",
+    "name": "Source Data Configuration Download",
+    "code": "rpa_source_data_configuration_download",
+    "parent_id": "300014"
+  },
+  {
+    "id": "300024",
+    "name": "Task List",
+    "code": "rpa_task_list",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300023",
+    "name": "Task",
+    "code": "rpa_task_view",
+    "parent_id": "300002"
+  },
+  {
+    "id": "300025",
+    "name": "Task List Count",
+    "code": "rpa_task_list_count",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300026",
+    "name": "Task Detail",
+    "code": "rpa_task_detail",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300027",
+    "name": "Task Delete",
+    "code": "rpa_task_delete",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300028",
+    "name": "Task Update",
+    "code": "rpa_task_update",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300029",
+    "name": "Task Add",
+    "code": "rpa_task_add",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300030",
+    "name": "Task Plugin List",
+    "code": "rpa_task_plugin_List",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300031",
+    "name": "Task Data Source",
+    "code": "rpa_task_date_source",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300032",
+    "name": "Task Data Source Table",
+    "code": "rpa_task_date_source_table",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300033",
+    "name": "Task Plugin Rule",
+    "code": "rpa_task_plugin_rule",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300034",
+    "name": "Task Data Source Column",
+    "code": "rpa_task_date_source_column",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300035",
+    "name": "Task Column Type",
+    "code": "rpa_task_column_type",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300036",
+    "name": "Task Data Storage",
+    "code": "rpa_task_data_storage",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300037",
+    "name": "Task Download",
+    "code": "rpa_task_download",
+    "parent_id": "300023"
+  },
+  {
+    "id": "300039",
+    "name": "Plugin List",
+    "code": "rpa_plugin_list",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300038",
+    "name": "Plugin",
+    "code": "rpa_plugin_view",
+    "parent_id": "300002"
+  },
+  {
+    "id": "300040",
+    "name": "Plugin Load",
+    "code": "rpa_plugin_load",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300041",
+    "name": "Plugin Delete",
+    "code": "rpa_plugin_delete",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300042",
+    "name": "Plugin Update",
+    "code": "rpa_plugin_update",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300043",
+    "name": "Plugin Add",
+    "code": "rpa_plugin_add",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300044",
+    "name": "Plugin Data Source Type",
+    "code": "rpa_plugin_data_source_type",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300045",
+    "name": "Plugin Type",
+    "code": "rpa_plugin_type",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300046",
+    "name": "Plugin Download",
+    "code": "rpa_plugin_download",
+    "parent_id": "300038"
+  },
+  {
+    "id": "300048",
+    "name": "Plugin Rule List",
+    "code": "rpa_plugin_rule_list",
+    "parent_id": "300047"
+  },
+  {
+    "id": "300047",
+    "name": "Plugin Rule",
+    "code": "rpa_plugin_rule_view",
+    "parent_id": "300002"
+  },
+  {
+    "id": "300049",
+    "name": "Plugin Rule Delete",
+    "code": "rpa_plugin_rule_delete",
+    "parent_id": "300047"
+  },
+  {
+    "id": "300050",
+    "name": "Plugin Rule Update",
+    "code": "rpa_plugin_rule_update",
+    "parent_id": "300047"
+  },
+  {
+    "id": "300051",
+    "name": "Plugin Rule Add",
+    "code": "rpa_plugin_rule_add",
+    "parent_id": "300047"
+  },
+  {
+    "id": "300052",
+    "name": "Plugin Rule Type",
+    "code": "rpa_plugin_rule_type",
+    "parent_id": "300047"
+  },
+  {
+    "id": "300053",
+    "name": "Plugin Rule Download",
+    "code": "rpa_plugin_rule_download",
+    "parent_id": "300047"
+  },
+  {
+    "id": "300057",
+    "name": "Rsim Central Source Data Configuration Type List",
+    "code": "rpa_rsim_central_data_source_type_list",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300056",
+    "name": "Rsim Central Source Data Configuration",
+    "code": "rpa_rsim_central_data_source_view",
+    "parent_id": "300055"
+  },
+  {
+    "id": "300055",
+    "name": "Rsim Central",
+    "code": "rpa_rsim_central_view",
+    "parent_id": "300054"
+  },
+  {
+    "id": "300054",
+    "name": "Rsim",
+    "code": "rpa_rsim_view",
+    "parent_id": "300001"
+  },
+  {
+    "id": "300058",
+    "name": "Rsim Central Source Data Configuration List",
+    "code": "rpa_rsim_central_data_source_list",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300059",
+    "name": "Rsim Central Source Data Configuration Add",
+    "code": "rpa_rsim_central_data_source_add",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300060",
+    "name": "Rsim Central Source Data Configuration Update",
+    "code": "rpa_rsim_central_data_source_update",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300061",
+    "name": "Rsim Central Source Data Configuration Delete",
+    "code": "rpa_rsim_central_data_source_delete",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300062",
+    "name": "Rsim Central Source Data Configuration Owners",
+    "code": "rpa_rsim_central_data_source_owners",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300063",
+    "name": "Rsim Central Source Data Configuration Ping",
+    "code": "rpa_rsim_central_data_source_ping",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300064",
+    "name": "Rsim Central Source Data Configuration Download",
+    "code": "rpa_rsim_central_data_source_download",
+    "parent_id": "300056"
+  },
+  {
+    "id": "300066",
+    "name": "Rsim Central Task List",
+    "code": "rpa_rsim_central_task_list",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300065",
+    "name": "Rsim Central Task",
+    "code": "rpa_rsim_central_task_view",
+    "parent_id": "300055"
+  },
+  {
+    "id": "300067",
+    "name": "Rsim Central Task List Count",
+    "code": "rpa_rsim_central_task_list_count",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300068",
+    "name": "Rsim Central Task Detail",
+    "code": "rpa_rsim_central_task_detail",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300069",
+    "name": "Rsim Central Task Delete",
+    "code": "rpa_rsim_central_task_delete",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300070",
+    "name": "Rsim Central Task Update",
+    "code": "rpa_rsim_central_task_update",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300071",
+    "name": "Rsim Central Task Add",
+    "code": "rpa_rsim_central_task_add",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300072",
+    "name": "Rsim Central Task Plugin List",
+    "code": "rpa_rsim_central_task_plugin_List",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300073",
+    "name": "Rsim Central Task Data Source",
+    "code": "rpa_rsim_central_task_date_source",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300074",
+    "name": "Rsim Central Task Data Source Table",
+    "code": "rpa_rsim_central_task_date_source_table",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300075",
+    "name": "Rsim Central Task Plugin Rule",
+    "code": "rpa_rsim_central_task_plugin_rule",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300076",
+    "name": "Rsim Central Task Data Source Column",
+    "code": "rpa_rsim_central_task_date_source_column",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300077",
+    "name": "Rsim Central Task Column Type",
+    "code": "rpa_rsim_central_task_column_type",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300078",
+    "name": "Rsim Central Task Data Storage",
+    "code": "rpa_rsim_central_task_data_storage",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300079",
+    "name": "Rsim Central Task Download",
+    "code": "rpa_rsim_central_task_download",
+    "parent_id": "300065"
+  },
+  {
+    "id": "300082",
+    "name": "Rsim Store Source Data Configuration type list",
+    "code": "rpa_rsim_store_data_source_type_list",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300081",
+    "name": "Rsim Store Source Data Configuration",
+    "code": "rpa_rsim_store_data_source_view",
+    "parent_id": "300080"
+  },
+  {
+    "id": "300080",
+    "name": "Rsim Store",
+    "code": "rpa_rsim_store_view",
+    "parent_id": "300054"
+  },
+  {
+    "id": "300083",
+    "name": "Rsim Store Source Data Configuration List",
+    "code": "rpa_rsim_store_data_source_store_list",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300084",
+    "name": "Rsim Store Source Data Configuration add",
+    "code": "rpa_rsim_store_data_source_add",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300085",
+    "name": "Rsim Store Source Data Configuration Update",
+    "code": "rpa_rsim_store_data_source_update",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300086",
+    "name": "Rsim Store Source Data Configuration Delete",
+    "code": "rpa_rsim_store_data_source_delete",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300087",
+    "name": "Rsim Store Source Data Configuration Owners",
+    "code": "rpa_rsim_store_data_source_owners",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300088",
+    "name": "Rsim Store Source Data Configuration Ping",
+    "code": "rpa_rsim_store_data_source_ping",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300089",
+    "name": "Rsim Store Source Data Configuration Download",
+    "code": "rpa_rsim_store_data_source_download",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300134",
+    "name": "Rsim Store Data Source  Type",
+    "code": "rpa_rsim_store_data_source_type",
+    "parent_id": "300081"
+  },
+  {
+    "id": "300091",
+    "name": "Rsim Store Task List",
+    "code": "rpa_rsim_store_task_list",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300090",
+    "name": "Rsim Store Task",
+    "code": "rpa_rsim_store_task_view",
+    "parent_id": "300080"
+  },
+  {
+    "id": "300092",
+    "name": "Rsim Store Task List Count",
+    "code": "rpa_rsim_store_task_list_count",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300093",
+    "name": "Rsim Store Task Detail",
+    "code": "rpa_rsim_store_task_detail",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300094",
+    "name": "Rsim Store Task Delete",
+    "code": "rpa_rsim_store_task_delete",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300095",
+    "name": "Rsim Store Task Update",
+    "code": "rpa_rsim_store_task_update",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300096",
+    "name": "Rsim Store Task Add",
+    "code": "rpa_rsim_store_task_add",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300097",
+    "name": "Rsim Store Task Plugin List",
+    "code": "rpa_rsim_store_task_plugin_List",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300098",
+    "name": "Rsim Store Task Data Source",
+    "code": "rpa_rsim_store_task_date_source",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300099",
+    "name": "Rsim Store Task Data Source Table",
+    "code": "rpa_rsim_store_task_date_source_table",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300100",
+    "name": "Rsim Store Task Plugin Rule",
+    "code": "rpa_rsim_store_task_plugin_rule",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300101",
+    "name": "Rsim Store Task Data Source Column",
+    "code": "rpa_rsim_store_task_date_source_column",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300102",
+    "name": "Rsim Store Task Column Type",
+    "code": "rpa_rsim_store_task_column_type",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300103",
+    "name": "Rsim Store Task Data Storage",
+    "code": "rpa_rsim_store_task_data_storage",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300104",
+    "name": "Rsim Store Task Download",
+    "code": "rpa_rsim_store_task_download",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300135",
+    "name": "Rsim Store Task Data Source Type",
+    "code": "rpa_rsim_store_task_data_source_type",
+    "parent_id": "300090"
+  },
+  {
+    "id": "300107",
+    "name": "People Counter Central Generation2",
+    "code": "rpa_people_counter_central_generation2_view",
+    "parent_id": "300106"
+  },
+  {
+    "id": "300106",
+    "name": "People Counter Central",
+    "code": "rpa_people_counter_central_view",
+    "parent_id": "300105"
+  },
+  {
+    "id": "300105",
+    "name": "People Counter",
+    "code": "rpa_people_counter_view",
+    "parent_id": "300001"
+  },
+  {
+    "id": "300109",
+    "name": "People Counter Central Generation3 List",
+    "code": "rpa_people_counter_central_generation3_list",
+    "parent_id": "300108"
+  },
+  {
+    "id": "300108",
+    "name": "People Counter Central Generation3",
+    "code": "rpa_people_counter_central_generation3_view",
+    "parent_id": "300106"
+  },
+  {
+    "id": "300110",
+    "name": "People Counter Central Generation3 Add",
+    "code": "rpa_people_counter_central_generation3_add",
+    "parent_id": "300108"
+  },
+  {
+    "id": "300111",
+    "name": "People Counter Central Generation3 Update",
+    "code": "rpa_people_counter_central_generation3_update",
+    "parent_id": "300108"
+  },
+  {
+    "id": "300112",
+    "name": "People Counter Central Generation3 Delete",
+    "code": "rpa_people_counter_central_generation3_delete",
+    "parent_id": "300108"
+  },
+  {
+    "id": "300113",
+    "name": "People Counter Central Generation3 Download",
+    "code": "rpa_people_counter_central_generation3_download",
+    "parent_id": "300108"
+  },
+  {
+    "id": "300116",
+    "name": "People Counter Store Task List",
+    "code": "rpa_people_counter_store_task_list",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300115",
+    "name": "People Counter Store Task",
+    "code": "rpa_people_counter_store_task_view",
+    "parent_id": "300114"
+  },
+  {
+    "id": "300114",
+    "name": "People Counter Store",
+    "code": "rpa_people_counter_store_view",
+    "parent_id": "300105"
+  },
+  {
+    "id": "300117",
+    "name": "People Counter Store Task List Count",
+    "code": "rpa_people_counter_store_task_list_count",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300118",
+    "name": "People Counter Store Task Detail",
+    "code": "rpa_people_counter_store_task_detail",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300119",
+    "name": "People Counter Store Task Delete",
+    "code": "rpa_people_counter_store_task_delete",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300120",
+    "name": "People Counter Store Task Update",
+    "code": "rpa_people_counter_store_task_update",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300121",
+    "name": "People Counter Store Task Add",
+    "code": "rpa_people_counter_store_task_add",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300122",
+    "name": "People Counter Store Task Plugin List",
+    "code": "rpa_people_counter_store_task_plugin_List",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300123",
+    "name": "People Counter Store Task Data Source",
+    "code": "rpa_people_counter_store_task_date_source",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300124",
+    "name": "People Counter Store Task Data Source Table",
+    "code": "rpa_people_counter_store_task_date_source_table",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300125",
+    "name": "People Counter Store Task Plugin Rule",
+    "code": "rpa_people_counter_store_task_plugin_rule",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300126",
+    "name": "People Counter Store Task Data Source Column",
+    "code": "rpa_people_counter_store_task_date_source_column",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300127",
+    "name": "People Counter Store Task Column Type",
+    "code": "rpa_people_counter_store_task_column_type",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300128",
+    "name": "People Counter Store Task Data Storage",
+    "code": "rpa_people_counter_store_task_data_storage",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300129",
+    "name": "People Counter Store Task Download",
+    "code": "rpa_people_counter_store_task_download",
+    "parent_id": "300115"
+  },
+  {
+    "id": "300131",
+    "name": "Error Log",
+    "code": "rpa_system_management_error_log_view",
+    "parent_id": "300130"
+  },
+  {
+    "id": "300130",
+    "name": "System Management",
+    "code": "rpa_system_management_view",
+    "parent_id": "300001"
+  },
+  {
+    "id": "300132",
+    "name": "Sql Query",
+    "code": "rpa_system_management_sql_query_view",
+    "parent_id": "300130"
+  },
+  {
+    "id": "300136",
+    "name": "Call Log Query Type List",
+    "code": "rpa_call_log_query_type_list",
+    "parent_id": "300133"
+  },
+  {
+    "id": "300133",
+    "name": "Call Log",
+    "code": "rpa_call_log_view",
+    "parent_id": "300001"
+  },
+  {
+    "id": "300137",
+    "name": "Call Log Update Type List",
+    "code": "rpa_call_log_update_type_list",
+    "parent_id": "300133"
+  },
+  {
+    "id": "300138",
+    "name": "Call Log Multi Type List",
+    "code": "rpa_call_log_multi_type_list",
+    "parent_id": "300133"
+  },
+  {
+    "id": "300139",
+    "name": "Call Log Delete",
+    "code": "rpa_call_log_delete",
+    "parent_id": "300133"
+  },
+  {
+    "id": "300004",
+    "name": "Store Stock Enquiry",
+    "code": "rpa_store_stock_enquiry_view",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300003",
+    "name": "Stock",
+    "code": "rpa_stock_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "300005",
+    "name": "Store Stock Enquiry District",
+    "code": "rpa_store_stock_enquiry_district",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300006",
+    "name": "Store Stock Enquiry Store",
+    "code": "rpa_store_stock_enquiry_store",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300007",
+    "name": "Store Stock Enquiry Check",
+    "code": "rpa_store_stock_enquiry_check_item",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300008",
+    "name": "Store Stock Enquiry Item Loc",
+    "code": "rpa_store_stock_enquiry_item_loc",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300009",
+    "name": "Store Stock Enquiry Available Stock",
+    "code": "rpa_store_stock_enquiry_available_stock",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300010",
+    "name": "Store Stock Enquiry Upload",
+    "code": "rpa_store_stock_enquiry_upload",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300011",
+    "name": "Store Stock Enquiry DownLoad",
+    "code": "rpa_store_stock_enquiry_downLoad",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300012",
+    "name": "Store Stock Enquiry Item Loc Cache",
+    "code": "rpa_store_stock_enquiry_itemlocs_cache",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300013",
+    "name": "Store Stock Enquiry Delete Item Loc",
+    "code": "rpa_store_stock_enquiry_del_itemlocs_cache",
+    "parent_id": "300003"
+  },
+  {
+    "id": "300142",
+    "name": "Product Off Shelf Operation List",
+    "code": "rpa_product_off_shelf_operation_List",
+    "parent_id": "300141"
+  },
+  {
+    "id": "300141",
+    "name": "Product Off Shelf Operation",
+    "code": "rpa_product_off_shelf_operation_view",
+    "parent_id": "300140"
+  },
+  {
+    "id": "300140",
+    "name": "Product Off Shelf",
+    "code": "rpa_product_off_shelf_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "300143",
+    "name": "Product Off Shelf By Item",
+    "code": "rpa_product_off_shelf_by_item",
+    "parent_id": "300141"
+  },
+  {
+    "id": "300144",
+    "name": "Product Off Shelf By Store",
+    "code": "rpa_product_off_shelf_by_store",
+    "parent_id": "300141"
+  },
+  {
+    "id": "300145",
+    "name": "Product Off Shelf Resume Stock",
+    "code": "rpa_product_off_shelf_resume_stock",
+    "parent_id": "300141"
+  },
+  {
+    "id": "300146",
+    "name": "Product Off Shelf Operation Store List",
+    "code": "rpa_product_off_shelf_operation_store_list",
+    "parent_id": "300141"
+  },
+  {
+    "id": "300148",
+    "name": "Product Off Shelf Schedule List",
+    "code": "rpa_product_off_shelf_schedule_list",
+    "parent_id": "300147"
+  },
+  {
+    "id": "300147",
+    "name": "Product Off Shelf Schedule",
+    "code": "rpa_product_off_shelf_schedule_view",
+    "parent_id": "300140"
+  },
+  {
+    "id": "300149",
+    "name": "Product Off Shelf Schedule Store List",
+    "code": "rpa_product_off_shelf_schedule_store_list",
+    "parent_id": "300147"
+  },
+  {
+    "id": "800011",
+    "name": "Filter POS Parameters",
+    "code": "cdc_itsupport_pos_parameters_filter",
+    "parent_id": "800010"
+  },
+  {
+    "id": "800010",
+    "name": "POS Parameters",
+    "code": "cdc_itsupport_pos_parameters_view",
+    "parent_id": "803"
+  },
+  {
+    "id": "803",
+    "name": "IT Support",
+    "code": "cdc_menu_itsupport",
+    "parent_id": "0"
+  },
+  {
+    "id": "800012",
+    "name": "Create POS Parameters",
+    "code": "cdc_itsupport_pos_parameters_create",
+    "parent_id": "800010"
+  },
+  {
+    "id": "800013",
+    "name": "Edit POS Parameters",
+    "code": "cdc_itsupport_pos_parameters_edit",
+    "parent_id": "800010"
+  },
+  {
+    "id": "800081",
+    "name": "Job Schedule Edit",
+    "code": "cdc_itsupport_data_in_schedule_edit",
+    "parent_id": "800080"
+  },
+  {
+    "id": "800080",
+    "name": "Data In Support",
+    "code": "cdc_itsupport_data_in",
+    "parent_id": "803"
+  },
+  {
+    "id": "800082",
+    "name": "View Data In Log",
+    "code": "cdc_itsupport_data_in_log_view",
+    "parent_id": "800080"
+  },
+  {
+    "id": "800083",
+    "name": "View Schedule Job",
+    "code": "cdc_itsupport_data_in_schedule_view",
+    "parent_id": "800080"
+  },
+  {
+    "id": "800097",
+    "name": "View EAI Lookup Map",
+    "code": "cdc_itsupport_eai_lookup_map_view",
+    "parent_id": "800096"
+  },
+  {
+    "id": "800096",
+    "name": "EAI Lookup Map",
+    "code": "cdc_itsupport_eai_lookup_map",
+    "parent_id": "803"
+  },
+  {
+    "id": "800098",
+    "name": "EAI Lookup Map Edit",
+    "code": "cdc_itsupport_eai_lookup_map_edit",
+    "parent_id": "800096"
+  },
+  {
+    "id": "800120",
+    "name": "POS 5 Lines Maintain View",
+    "code": "cdc_itsupport_five_line_view",
+    "parent_id": "800119"
+  },
+  {
+    "id": "800119",
+    "name": "POS 5 Lines Maintain",
+    "code": "cdc_itsupport_five_line",
+    "parent_id": "800096"
+  },
+  {
+    "id": "800121",
+    "name": "POS 5 Lines Maintain Edit",
+    "code": "cdc_itsupport_five_line_edit",
+    "parent_id": "800119"
+  },
+  {
+    "id": "800122",
+    "name": "POS 5 Lines Maintain Preview",
+    "code": "cdc_itsupport_five_line_test_preview",
+    "parent_id": "800119"
+  },
+  {
+    "id": "800147",
+    "name": "Validation Rule List",
+    "code": "cdc_itsupport_rule_list_view",
+    "parent_id": "800146"
+  },
+  {
+    "id": "800146",
+    "name": "Data Validation",
+    "code": "cdc_itsupport_data_validation",
+    "parent_id": "803"
+  },
+  {
+    "id": "800148",
+    "name": "Validation Rule Create",
+    "code": "cdc_itsupport_rule_list_create",
+    "parent_id": "800146"
+  },
+  {
+    "id": "800149",
+    "name": "Validation Rule Detail List",
+    "code": "cdc_itsupport_rule_detail_view",
+    "parent_id": "800146"
+  },
+  {
+    "id": "800150",
+    "name": "Validation Rule Detail Create",
+    "code": "cdc_itsupport_rule_detail_create",
+    "parent_id": "800146"
+  },
+  {
+    "id": "800153",
+    "name": "Configuration Option List",
+    "code": "cdc_itsupport_list_of_values_list",
+    "parent_id": "800152"
+  },
+  {
+    "id": "800152",
+    "name": "List Of Values",
+    "code": "cdc_itsupport_list_of_values",
+    "parent_id": "803"
+  },
+  {
+    "id": "800154",
+    "name": "Configuration Option Modify",
+    "code": "cdc_itsupport_list_of_values_edit",
+    "parent_id": "800152"
+  },
+  {
+    "id": "803001001",
+    "name": "Error Log View",
+    "code": "cdc_itsupport_error_log_view",
+    "parent_id": "803001"
+  },
+  {
+    "id": "803001",
+    "name": "Error Log List",
+    "code": "cdc_menu_itsupport_error_log",
+    "parent_id": "803"
+  },
+  {
+    "id": "803001002",
+    "name": "Error Log Purge",
+    "code": "cdc_itsupport_error_log_delete",
+    "parent_id": "803001"
+  },
+  {
+    "id": "800032",
+    "name": "Create New Member",
+    "code": "cdc_customer_member_create_new_member",
+    "parent_id": "801001"
+  },
+  {
+    "id": "801001",
+    "name": "Member List",
+    "code": "cdc_member_query",
+    "parent_id": "801"
+  },
+  {
+    "id": "801",
+    "name": "CS Member Query",
+    "code": "cdc_menu_member",
+    "parent_id": "899"
+  },
+  {
+    "id": "899",
+    "name": "Cutomer",
+    "code": "cdc_menu_customer",
+    "parent_id": "0"
+  },
+  {
+    "id": "801001001",
+    "name": "Export Data to File",
+    "code": "cdc_data_to_file_export",
+    "parent_id": "801001"
+  },
+  {
+    "id": "801001002",
+    "name": "Generate Cards",
+    "code": "cdc_member_cards_create",
+    "parent_id": "801001"
+  },
+  {
+    "id": "801001003",
+    "name": "Update Cards",
+    "code": "cdc_member_cards_edit",
+    "parent_id": "801001"
+  },
+  {
+    "id": "801001004",
+    "name": "Member List View",
+    "code": "cdc_member_list_view",
+    "parent_id": "801001"
+  },
+  {
+    "id": "800042",
+    "name": "Create New Segment",
+    "code": "cdc_customer_member_detail_segment_create",
+    "parent_id": "800070"
+  },
+  {
+    "id": "800070",
+    "name": "Segment",
+    "code": "cdc_customer_member_detail_segment",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002",
+    "name": "Member Detail",
+    "code": "cdc_member_detail",
+    "parent_id": "801"
+  },
+  {
+    "id": "800075",
+    "name": "Member Segment View",
+    "code": "cdc_customer_member_detail_segment_view",
+    "parent_id": "800070"
+  },
+  {
+    "id": "801002007003",
+    "name": "Member Segment Edit",
+    "code": "cdc_member_segment_edit",
+    "parent_id": "800070"
+  },
+  {
+    "id": "800077",
+    "name": "Tier View",
+    "code": "cdc_member_tier_view",
+    "parent_id": "800076"
+  },
+  {
+    "id": "800076",
+    "name": "Tier",
+    "code": "cdc_member_tier",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800078",
+    "name": "Processing Tier Change",
+    "code": "cdc_member_tier_processing_tier_change",
+    "parent_id": "800076"
+  },
+  {
+    "id": "800079",
+    "name": "Assign New Tier",
+    "code": "cdc_member_tier_assign_new_tier",
+    "parent_id": "800076"
+  },
+  {
+    "id": "800087",
+    "name": "BU Event Transaction",
+    "code": "cdc_member_bu_event_transaction",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800118",
+    "name": "Member Partner Card view",
+    "code": "cdc_member_partner_card",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800151",
+    "name": "Secondary Address",
+    "code": "cdc_member_secondary_address",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800099",
+    "name": "Bu event Adjustment Create",
+    "code": "cdc_member_bu_event_adjustment_create",
+    "parent_id": "801002001"
+  },
+  {
+    "id": "801002001",
+    "name": "Point Adjustment",
+    "code": "cdc_member_point_adjustment",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002001001",
+    "name": "Point Adjustment Create",
+    "code": "cdc_member_point_adjustment_create",
+    "parent_id": "801002001"
+  },
+  {
+    "id": "801002002001",
+    "name": "Point Transfer Create",
+    "code": "cdc_member_point_transfer_create",
+    "parent_id": "801002002"
+  },
+  {
+    "id": "801002002",
+    "name": "Point Transfer",
+    "code": "cdc_member_point_transfer",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002003001",
+    "name": "General Edit",
+    "code": "cdc_member_basicinfo_edit",
+    "parent_id": "801002003"
+  },
+  {
+    "id": "801002003",
+    "name": "General",
+    "code": "cdc_member_general",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002003002",
+    "name": "General Mobile Edit",
+    "code": "cdc_member_general_mobile_edit",
+    "parent_id": "801002003"
+  },
+  {
+    "id": "801002003003",
+    "name": "General Email Edit",
+    "code": "cdc_member_general_email_edit",
+    "parent_id": "801002003"
+  },
+  {
+    "id": "801002003004",
+    "name": "General View",
+    "code": "cdc_member_general_view",
+    "parent_id": "801002003"
+  },
+  {
+    "id": "801002004001",
+    "name": "Membership Cards Edit",
+    "code": "cdc_membership_cards_edit",
+    "parent_id": "801002004"
+  },
+  {
+    "id": "801002004",
+    "name": "Membership Cards",
+    "code": "cdc_member_membership_cards",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002004002",
+    "name": "Member Card Transfer(Merge) Edit",
+    "code": "cdc_member_card_transfer_merge_edit",
+    "parent_id": "801002004"
+  },
+  {
+    "id": "801002004003",
+    "name": "Membership Cards View",
+    "code": "cdc_membership_cards_view",
+    "parent_id": "801002004"
+  },
+  {
+    "id": "801002005001",
+    "name": "Point Balances Edit",
+    "code": "cdc_member_point_balances_edit",
+    "parent_id": "801002005"
+  },
+  {
+    "id": "801002005",
+    "name": "Point Balances",
+    "code": "cdc_member_point_balances",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002005002",
+    "name": "Point Balances View",
+    "code": "cdc_member_point_balances_view",
+    "parent_id": "801002005"
+  },
+  {
+    "id": "801002006",
+    "name": "Activity",
+    "code": "cdc_member_activity",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800033",
+    "name": "Member Address Edit",
+    "code": "cdc_member_address_edit",
+    "parent_id": "801002007"
+  },
+  {
+    "id": "801002007",
+    "name": "Profile",
+    "code": "cdc_member_profile",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002007001",
+    "name": "More Info Edit",
+    "code": "cdc_member_more_info_edit",
+    "parent_id": "801002007"
+  },
+  {
+    "id": "801002007002",
+    "name": "Staff Edit",
+    "code": "cdc_member_staff_edit",
+    "parent_id": "801002007"
+  },
+  {
+    "id": "801002007004",
+    "name": "Family Edit",
+    "code": "cdc_member_family_edit",
+    "parent_id": "801002007"
+  },
+  {
+    "id": "801002007005",
+    "name": "Profile View",
+    "code": "cdc_member_profile_view",
+    "parent_id": "801002007"
+  },
+  {
+    "id": "801002008",
+    "name": "Orders",
+    "code": "cdc_member_orders",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800123",
+    "name": "Transaction View",
+    "code": "cdc_member_transaction_list_view",
+    "parent_id": "801002009"
+  },
+  {
+    "id": "801002009",
+    "name": "Transaction",
+    "code": "cdc_member_transaction",
+    "parent_id": "801002"
+  },
+  {
+    "id": "800124",
+    "name": "Transaction Cancel",
+    "code": "cdc_member_transaction_cancel",
+    "parent_id": "801002009"
+  },
+  {
+    "id": "801002010",
+    "name": "Campaigns",
+    "code": "cdc_member_campaigns",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002011001",
+    "name": "Re-Issue",
+    "code": "cdc_member_vouchers_re_issue",
+    "parent_id": "801002011"
+  },
+  {
+    "id": "801002011",
+    "name": "Vouchers",
+    "code": "cdc_member_vouchers",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002011002",
+    "name": "Vouchers View",
+    "code": "cdc_member_vouchers_view",
+    "parent_id": "801002011"
+  },
+  {
+    "id": "801002012001",
+    "name": "Opt in&out Edit",
+    "code": "cdc_member_opt_in_and_out_edit",
+    "parent_id": "801002012"
+  },
+  {
+    "id": "801002012",
+    "name": "Opt in&out",
+    "code": "cdc_member_opt_in_and_out",
+    "parent_id": "801002"
+  },
+  {
+    "id": "801002012002",
+    "name": "Opt in&out View",
+    "code": "cdc_member_opt_in_and_out_view",
+    "parent_id": "801002012"
+  },
+  {
+    "id": "801003",
+    "name": "Member View",
+    "code": "cdc_member_view",
+    "parent_id": "801"
+  },
+  {
+    "id": "802001001",
+    "name": "My Team's Inbox Items",
+    "code": "cdc_approval_my_team_items",
+    "parent_id": "802001"
+  },
+  {
+    "id": "802001",
+    "name": "Approval List",
+    "code": "cdc_approval_query",
+    "parent_id": "802"
+  },
+  {
+    "id": "802",
+    "name": "Approval Inbox",
+    "code": "cdc_menu_approval_inbox",
+    "parent_id": "899"
+  },
+  {
+    "id": "802001002",
+    "name": "Acceptable All of the Result",
+    "code": "cdc_approval_acceptable_all",
+    "parent_id": "802001"
+  },
+  {
+    "id": "802001003",
+    "name": "Acceptable Selected",
+    "code": "cdc_approval_acceptable_selected",
+    "parent_id": "802001"
+  },
+  {
+    "id": "802001004",
+    "name": "Reject Selected",
+    "code": "cdc_approval_reject_selected",
+    "parent_id": "802001"
+  },
+  {
+    "id": "802002001",
+    "name": "Cancel",
+    "code": "cdc_approval_cancel",
+    "parent_id": "802002"
+  },
+  {
+    "id": "802002",
+    "name": "Approval Detail",
+    "code": "cdc_approval_detail",
+    "parent_id": "802"
+  },
+  {
+    "id": "802002002",
+    "name": "Acceptable",
+    "code": "cdc_approval_acceptable",
+    "parent_id": "802002"
+  },
+  {
+    "id": "802002003",
+    "name": "Reject",
+    "code": "cdc_approval_reject",
+    "parent_id": "802002"
+  },
+  {
+    "id": "802002004",
+    "name": "Transfer",
+    "code": "cdc_approval_transfer",
+    "parent_id": "802002"
+  },
+  {
+    "id": "802002005",
+    "name": "Approval Detail View",
+    "code": "cdc_approval_detail_view",
+    "parent_id": "802002"
+  },
+  {
+    "id": "800035",
+    "name": "Batch Point Adjustment Submit",
+    "code": "cdc_menu_batch_point_adj_submit",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800034",
+    "name": "Batch Adjustment",
+    "code": "cdc_menu_batch_adj",
+    "parent_id": "899"
+  },
+  {
+    "id": "800036",
+    "name": "Batch Point Adjustment Cancel",
+    "code": "cdc_menu_batch_point_adj_cancel",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800037",
+    "name": "Batch Point Adjustment Approval",
+    "code": "cdc_menu_batch_point_adj_approval",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800038",
+    "name": "Batch Point Adjustment Reject",
+    "code": "cdc_menu_batch_point_adj_reject",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800088",
+    "name": "Batch Point Adjustment View",
+    "code": "cdc_menu_batch_point_adj_view",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800102",
+    "name": "Batch Event Adjustment View",
+    "code": "cdc_menu_batch_event_adj_view",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800103",
+    "name": "Batch Event Adjustment Submit",
+    "code": "cdc_menu_batch_event_adj_submit",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800104",
+    "name": "Batch Event Adjustment Cancel",
+    "code": "cdc_menu_batch_event_adj_cancel",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800105",
+    "name": "Batch Event Adjustment Approval",
+    "code": "cdc_menu_batch_event_adj_approval",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800106",
+    "name": "Batch Event Adjustment Reject",
+    "code": "cdc_menu_batch_event_adj_reject",
+    "parent_id": "800034"
+  },
+  {
+    "id": "800090",
+    "name": "Bulk Tier Change View",
+    "code": "cdc_menu_bulk_tier_change_view",
+    "parent_id": "800089"
+  },
+  {
+    "id": "800089",
+    "name": "Bulk Tier Change",
+    "code": "cdc_menu_bulk_tier_change",
+    "parent_id": "899"
+  },
+  {
+    "id": "800091",
+    "name": "Create New Bulk Tier Change",
+    "code": "cdc_menu_bulk_tier_change_create",
+    "parent_id": "800089"
+  },
+  {
+    "id": "800092",
+    "name": "Processing Tier Change",
+    "code": "cdc_menu_bulk_tier_change_edit",
+    "parent_id": "800089"
+  },
+  {
+    "id": "800094",
+    "name": "Activation Form View",
+    "code": "cdc_menu_member_activation_form_view",
+    "parent_id": "800093"
+  },
+  {
+    "id": "800093",
+    "name": "Member Activation Form",
+    "code": "cdc_menu_member_activation_form",
+    "parent_id": "899"
+  },
+  {
+    "id": "800095",
+    "name": "Activation Form Edit",
+    "code": "cdc_menu_member_activation_form_edit",
+    "parent_id": "800093"
+  },
+  {
+    "id": "800003",
+    "name": "Filter Program List",
+    "code": "cdc_program_list_filter",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800002",
+    "name": "Program List",
+    "code": "cdc_program_list_view",
+    "parent_id": "800001"
+  },
+  {
+    "id": "800001",
+    "name": "Program",
+    "code": "cdc_program_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "800004",
+    "name": "Create Program",
+    "code": "cdc_program_list_create",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800005",
+    "name": "Inquire Program Detail",
+    "code": "cdc_program_list_detail_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800006",
+    "name": "Edit Program Detail",
+    "code": "cdc_program_list_detail_edit",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800007",
+    "name": "Inquire Bu Event List",
+    "code": "cdc_program_list_detail_bu_event_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800008",
+    "name": "Create Bu Event",
+    "code": "cdc_program_list_detail_bu_event_create",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800009",
+    "name": "Edit Bu Event",
+    "code": "cdc_program_list_detail_bu_event_edit",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800014",
+    "name": "Inquire point type",
+    "code": "cdc_program_list_detail_point_type_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800015",
+    "name": "Create point type",
+    "code": "cdc_program_list_detail_point_type_create",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800016",
+    "name": "Edit point type",
+    "code": "cdc_program_list_detail_point_type_edit",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800017",
+    "name": "Inquire tier class",
+    "code": "cdc_program_list_detail_tier_class_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800018",
+    "name": "Create tier class",
+    "code": "cdc_program_list_detail_tier_class_create",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800019",
+    "name": "Edit tier class",
+    "code": "cdc_program_list_detail_tier_class_edit",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800020",
+    "name": "Inquire tier",
+    "code": "cdc_program_list_detail_tier_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800021",
+    "name": "Create tier",
+    "code": "cdc_program_list_detail_tier_create",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800022",
+    "name": "Edit tier",
+    "code": "cdc_program_list_detail_tier_edit",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800023",
+    "name": "Inquire point sub type",
+    "code": "cdc_program_list_detail_point_sub_type_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800024",
+    "name": "Create point sub type",
+    "code": "cdc_program_list_detail_point_sub_type_create",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800025",
+    "name": "Edit point sub type",
+    "code": "cdc_program_list_detail_point_sub_type_edit",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800026",
+    "name": "Inquire vouchers",
+    "code": "cdc_program_list_detail_vouchers_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800045",
+    "name": "Product attributes view",
+    "code": "cdc_program_program_lv_attrs_product_view",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800044",
+    "name": "Program level attributes",
+    "code": "cdc_program_program_lv_attrs_view",
+    "parent_id": "800002"
+  },
+  {
+    "id": "800046",
+    "name": "Product attributes create",
+    "code": "cdc_program_program_lv_attrs_product_create",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800047",
+    "name": "Product attributes edit",
+    "code": "cdc_program_program_lv_attrs_product_edit",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800048",
+    "name": "Member attributes view",
+    "code": "cdc_program_program_lv_attrs_member_view",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800049",
+    "name": "Member attributes create",
+    "code": "cdc_program_program_lv_attrs_member_create",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800050",
+    "name": "Member attributes edit",
+    "code": "cdc_program_program_lv_attrs_member_edit",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800051",
+    "name": "Member field attributes view",
+    "code": "cdc_program_program_lv_attrs_member_field_view",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800052",
+    "name": "Member field attributes create",
+    "code": "cdc_program_program_lv_attrs_member_field_create",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800053",
+    "name": "Member field attributes edit",
+    "code": "cdc_program_program_lv_attrs_member_field_edit",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800054",
+    "name": "Member tier attributes view",
+    "code": "cdc_program_program_lv_attrs_member_tier_view",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800055",
+    "name": "Member tier attributes create",
+    "code": "cdc_program_program_lv_attrs_member_tier_create",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800056",
+    "name": "Member tier attributes edit",
+    "code": "cdc_program_program_lv_attrs_member_tier_edit",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800057",
+    "name": "Point totals attributes view",
+    "code": "cdc_program_program_lv_attrs_point_totals_view",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800058",
+    "name": "Point totals attributes create",
+    "code": "cdc_program_program_lv_attrs_point_totals_create",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800059",
+    "name": "Point totals attributes edit",
+    "code": "cdc_program_program_lv_attrs_point_totals_edit",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800060",
+    "name": "Transaction attributes view",
+    "code": "cdc_program_program_lv_attrs_transaction_view",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800061",
+    "name": "Transaction attributes create",
+    "code": "cdc_program_program_lv_attrs_transaction_create",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800062",
+    "name": "Transaction attributes edit",
+    "code": "cdc_program_program_lv_attrs_transaction_edit",
+    "parent_id": "800044"
+  },
+  {
+    "id": "800100",
+    "name": "User List View",
+    "code": "cdc_user_admin_user_list_view",
+    "parent_id": "800028"
+  },
+  {
+    "id": "800028",
+    "name": "User List",
+    "code": "cdc_user_admin_user_list",
+    "parent_id": "800027"
+  },
+  {
+    "id": "800027",
+    "name": "User Administration",
+    "code": "cdc_user_admin_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "800101",
+    "name": "User Account Sync",
+    "code": "cdc_user_admin_user_list_account_sync",
+    "parent_id": "800028"
+  },
+  {
+    "id": "800030",
+    "name": "Create Approval Rule",
+    "code": "cdc_user_admin_approval_rules_create",
+    "parent_id": "800029"
+  },
+  {
+    "id": "800029",
+    "name": "Approval Rules",
+    "code": "cdc_user_admin_approval_rules_view",
+    "parent_id": "800027"
+  },
+  {
+    "id": "800031",
+    "name": "Edit Approval Rule",
+    "code": "cdc_user_admin_approval_rules_edit",
+    "parent_id": "800029"
+  },
+  {
+    "id": "800041",
+    "name": "Download File",
+    "code": "cdc_operation_center_export_data_download",
+    "parent_id": "800040"
+  },
+  {
+    "id": "800040",
+    "name": "Export Data",
+    "code": "cdc_operation_center_export_data_view",
+    "parent_id": "800039"
+  },
+  {
+    "id": "800039",
+    "name": "Operation Center",
+    "code": "cdc_operation_center_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "800065",
+    "name": "Loyalty Product Query",
+    "code": "cdc_foundation_loyalty_product_query",
+    "parent_id": "800064"
+  },
+  {
+    "id": "800064",
+    "name": "Loyalty Product",
+    "code": "cdc_foundation_loyalty_product_view",
+    "parent_id": "800063"
+  },
+  {
+    "id": "800063",
+    "name": "Foundation Data",
+    "code": "cdc_foundation_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "800066",
+    "name": "Loyalty Product Create",
+    "code": "cdc_foundation_loyalty_product_create",
+    "parent_id": "800064"
+  },
+  {
+    "id": "800067",
+    "name": "Loyalty Product Edit",
+    "code": "cdc_foundation_loyalty_product_edit",
+    "parent_id": "800064"
+  },
+  {
+    "id": "800069",
+    "name": "Store Master Query",
+    "code": "cdc_foundation_store_master_query",
+    "parent_id": "800068"
+  },
+  {
+    "id": "800068",
+    "name": "Store Master",
+    "code": "cdc_foundation_store_master_view",
+    "parent_id": "800063"
+  },
+  {
+    "id": "800073",
+    "name": "NonPOS Promotion Detail",
+    "code": "cdc_non_pos_promotion_detail_view",
+    "parent_id": "800072"
+  },
+  {
+    "id": "800072",
+    "name": "NonPOS Promotion",
+    "code": "cdc_non_pos_promotion_view",
+    "parent_id": "800071"
+  },
+  {
+    "id": "800071",
+    "name": "Promotion",
+    "code": "cdc_promotion_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "800074",
+    "name": "Non-POS Promotion Edit",
+    "code": "cdc_non_pos_promotion_detail_edit",
+    "parent_id": "800072"
+  },
+  {
+    "id": "800085",
+    "name": "Pos Promotion List View",
+    "code": "cdc_pos_promotion_list_view",
+    "parent_id": "800084"
+  },
+  {
+    "id": "800084",
+    "name": "Pos Promotion",
+    "code": "cdc_menu_pos_promotion",
+    "parent_id": "800071"
+  },
+  {
+    "id": "800086",
+    "name": "Pos Promotion Detail View",
+    "code": "cdc_pos_promotion_detail_view",
+    "parent_id": "800084"
+  },
+  {
+    "id": "800109",
+    "name": "channel view",
+    "code": "cdc_cid_channel_view",
+    "parent_id": "800108"
+  },
+  {
+    "id": "800108",
+    "name": "Channel Definition",
+    "code": "cdc_menu_cid_channel",
+    "parent_id": "800107"
+  },
+  {
+    "id": "800107",
+    "name": "Customer ID",
+    "code": "cdc_menu_cid",
+    "parent_id": "0"
+  },
+  {
+    "id": "800110",
+    "name": "channel create",
+    "code": "cdc_cid_channel_create",
+    "parent_id": "800108"
+  },
+  {
+    "id": "800111",
+    "name": "channel edit",
+    "code": "cdc_cid_channel_edit",
+    "parent_id": "800108"
+  },
+  {
+    "id": "800117",
+    "name": "Customer Inquiry View",
+    "code": "cdc_cid_customer_view",
+    "parent_id": "800112"
+  },
+  {
+    "id": "800112",
+    "name": "Customer Inquiry",
+    "code": "cdc_menu_cid_customer",
+    "parent_id": "800107"
+  },
+  {
+    "id": "800114",
+    "name": "Customer merge rule view",
+    "code": "cdc_customer_merge_rule_view",
+    "parent_id": "800113"
+  },
+  {
+    "id": "800113",
+    "name": "Customer Merge Rule",
+    "code": "cdc_menu_cid_customer_merge_rule",
+    "parent_id": "800107"
+  },
+  {
+    "id": "800115",
+    "name": "Customer merge rule create",
+    "code": "cdc_customer_merge_rule_create",
+    "parent_id": "800113"
+  },
+  {
+    "id": "800116",
+    "name": "Customer merge rule edit",
+    "code": "cdc_customer_merge_rule_edit",
+    "parent_id": "800113"
+  },
+  {
+    "id": "800133",
+    "name": "Template List",
+    "code": "cdc_engagement_template_list_view",
+    "parent_id": "800132"
+  },
+  {
+    "id": "800132",
+    "name": "Template",
+    "code": "cdc_engagement_template",
+    "parent_id": "800131"
+  },
+  {
+    "id": "800131",
+    "name": "Engagement",
+    "code": "cdc_engagement_view",
+    "parent_id": "0"
+  },
+  {
+    "id": "800134",
+    "name": "Template Create",
+    "code": "cdc_engagement_template_create",
+    "parent_id": "800132"
+  },
+  {
+    "id": "800135",
+    "name": "Template Detail",
+    "code": "cdc_engagement_template_detail_view",
+    "parent_id": "800132"
+  },
+  {
+    "id": "800136",
+    "name": "Template Modify",
+    "code": "cdc_engagement_template_detail_edit",
+    "parent_id": "800132"
+  },
+  {
+    "id": "800137",
+    "name": "Template Delete",
+    "code": "cdc_engagement_template_delete",
+    "parent_id": "800132"
+  },
+  {
+    "id": "800139",
+    "name": "Program List",
+    "code": "cdc_engagement_program_list_view",
+    "parent_id": "800138"
+  },
+  {
+    "id": "800138",
+    "name": "Program",
+    "code": "cdc_engagement_program",
+    "parent_id": "800131"
+  },
+  {
+    "id": "800140",
+    "name": "Program Create",
+    "code": "cdc_engagement_program_create",
+    "parent_id": "800138"
+  },
+  {
+    "id": "800141",
+    "name": "Program Send",
+    "code": "cdc_engagement_program_send",
+    "parent_id": "800138"
+  },
+  {
+    "id": "800142",
+    "name": "Program Detail",
+    "code": "cdc_engagement_program_detail_view",
+    "parent_id": "800138"
+  },
+  {
+    "id": "800143",
+    "name": "Program Modify",
+    "code": "cdc_engagement_program_detail_edit",
+    "parent_id": "800138"
+  },
+  {
+    "id": "800145",
+    "name": "Log List",
+    "code": "cdc_engagement_log_list_view",
+    "parent_id": "800144"
+  },
+  {
+    "id": "800144",
+    "name": "Logs",
+    "code": "cdc_engagement_logs",
+    "parent_id": "800131"
+  },
+  {
+    "id": "600003",
+    "name": "Project list",
+    "code": "tatp_project_list",
+    "parent_id": "600002"
+  },
+  {
+    "id": "600002",
+    "name": "Project",
+    "code": "tatp_project",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600001",
+    "name": "TATP",
+    "code": "tatp",
+    "parent_id": "0"
+  },
+  {
+    "id": "600004",
+    "name": "Delete project",
+    "code": "tatp_delete_project",
+    "parent_id": "600002"
+  },
+  {
+    "id": "600005",
+    "name": "Edit Project",
+    "code": "tatp_edit_project",
+    "parent_id": "600002"
+  },
+  {
+    "id": "600006",
+    "name": "View Project",
+    "code": "tatp_view_project",
+    "parent_id": "600002"
+  },
+  {
+    "id": "600007",
+    "name": "Add Project",
+    "code": "tatp_add_project",
+    "parent_id": "600002"
+  },
+  {
+    "id": "600009",
+    "name": "Project Data",
+    "code": "tatp_dashboard_get_data",
+    "parent_id": "600008"
+  },
+  {
+    "id": "600008",
+    "name": "Dashboard",
+    "code": "tatp_dashboard",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600010",
+    "name": "Run Data",
+    "code": "tatp_dashboard_get_run_data",
+    "parent_id": "600008"
+  },
+  {
+    "id": "600013",
+    "name": "Test case set list",
+    "code": "tatp_use_case_set_list",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600012",
+    "name": "Use Case Set",
+    "code": "tatp_use_case_set",
+    "parent_id": "600011"
+  },
+  {
+    "id": "600011",
+    "name": "Workbench",
+    "code": "tatp_workbench",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600014",
+    "name": "Create test case set",
+    "code": "tatp_use_case_set_create",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600015",
+    "name": "Export test case list",
+    "code": "tatp_use_case_set_export_use_case",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600016",
+    "name": "Delete test case set",
+    "code": "tatp_use_case_set_delete",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600017",
+    "name": "Edit test case set",
+    "code": "tatp_use_case_set_edit",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600018",
+    "name": "View test case set",
+    "code": "tatp_use_case_set_view",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600019",
+    "name": "Test Case Set Detail",
+    "code": "tatp_use_case_set_detail",
+    "parent_id": "600012"
+  },
+  {
+    "id": "600020",
+    "name": "Change test case",
+    "code": "tatp_test_case_set_change_test_case",
+    "parent_id": "600019"
+  },
+  {
+    "id": "600021",
+    "name": "Run Immediately",
+    "code": "tatp_test_case_set_run_immediately",
+    "parent_id": "600019"
+  },
+  {
+    "id": "600022",
+    "name": "Scheduled Data",
+    "code": "tatp_test_case_set_scheduled_data",
+    "parent_id": "600019"
+  },
+  {
+    "id": "600023",
+    "name": "Edit Scheduled",
+    "code": "tatp_test_case_set_scheduled_edit",
+    "parent_id": "600019"
+  },
+  {
+    "id": "600024",
+    "name": "Delete Scheduled",
+    "code": "tatp_test_case_set_scheduled_delete",
+    "parent_id": "600019"
+  },
+  {
+    "id": "600025",
+    "name": "Delete test case",
+    "code": "tatp_test_case_set_delete_test_case",
+    "parent_id": "600019"
+  },
+  {
+    "id": "600026",
+    "name": "Test Case Library",
+    "code": "tatp_test_case_library",
+    "parent_id": "600011"
+  },
+  {
+    "id": "600027",
+    "name": "Create test case",
+    "code": "tatp_test_case_library_create",
+    "parent_id": "600026"
+  },
+  {
+    "id": "600028",
+    "name": "Edit test case",
+    "code": "tatp_test_case_library_edit",
+    "parent_id": "600026"
+  },
+  {
+    "id": "600029",
+    "name": "Copy test case",
+    "code": "tatp_test_case_library_copy",
+    "parent_id": "600026"
+  },
+  {
+    "id": "600030",
+    "name": "Delete test case",
+    "code": "tatp_test_case_library_delete",
+    "parent_id": "600026"
+  },
+  {
+    "id": "600031",
+    "name": "Test Case Instruction",
+    "code": "tatp_test_case_instruction",
+    "parent_id": "600011"
+  },
+  {
+    "id": "600032",
+    "name": "Add instruction",
+    "code": "tatp_test_case_instruction_add",
+    "parent_id": "600031"
+  },
+  {
+    "id": "600033",
+    "name": "Edit instruction",
+    "code": "tatp_test_case_instruction_edit",
+    "parent_id": "600031"
+  },
+  {
+    "id": "600034",
+    "name": "Run test case",
+    "code": "tatp_test_case_instruction_run",
+    "parent_id": "600031"
+  },
+  {
+    "id": "600035",
+    "name": "View Drive",
+    "code": "tatp_test_case_instruction_view_drive",
+    "parent_id": "600031"
+  },
+  {
+    "id": "600036",
+    "name": "Copy instruction",
+    "code": "tatp_test_case_instruction_copy",
+    "parent_id": "600031"
+  },
+  {
+    "id": "600037",
+    "name": "Delete instruction",
+    "code": "tatp_test_case_instruction_delete",
+    "parent_id": "600031"
+  },
+  {
+    "id": "600038",
+    "name": "Api Management",
+    "code": "tatp_api_management",
+    "parent_id": "600011"
+  },
+  {
+    "id": "600039",
+    "name": "Add api",
+    "code": "tatp_api_management_add",
+    "parent_id": "600038"
+  },
+  {
+    "id": "600040",
+    "name": "Edit api",
+    "code": "tatp_api_management_edit",
+    "parent_id": "600038"
+  },
+  {
+    "id": "600041",
+    "name": "Delete api",
+    "code": "tatp_api_management_delete",
+    "parent_id": "600038"
+  },
+  {
+    "id": "600042",
+    "name": "Element Management",
+    "code": "tatp_element_management",
+    "parent_id": "600011"
+  },
+  {
+    "id": "600043",
+    "name": "Add element set",
+    "code": "tatp_element_management_add_set",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600044",
+    "name": "Edit element set",
+    "code": "tatp_element_management_edit_set",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600045",
+    "name": "Delete element set",
+    "code": "tatp_element_management_delete_set",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600046",
+    "name": "View element set",
+    "code": "tatp_element_management_view_set",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600047",
+    "name": "Add element subset",
+    "code": "tatp_element_management_add_subset",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600048",
+    "name": "Edit element subset",
+    "code": "tatp_element_management_edit_subset",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600049",
+    "name": "Delete element subset",
+    "code": "tatp_element_management_delete_subset",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600050",
+    "name": "View element subset",
+    "code": "tatp_element_management_view_subset",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600051",
+    "name": "Edit element",
+    "code": "tatp_element_management_edit_element",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600052",
+    "name": "Add element",
+    "code": "tatp_element_management_add_element",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600053",
+    "name": "Delete element",
+    "code": "tatp_element_management_delete_element",
+    "parent_id": "600042"
+  },
+  {
+    "id": "600090",
+    "name": "Testing Data Script",
+    "code": "tatp_testing_data_script",
+    "parent_id": "600011"
+  },
+  {
+    "id": "600091",
+    "name": "Get  Testing Data Script item",
+    "code": "tatp_testing_data_script_item",
+    "parent_id": "600090"
+  },
+  {
+    "id": "600092",
+    "name": "Add  Testing Data Script item",
+    "code": "tatp_testing_data_script_add",
+    "parent_id": "600090"
+  },
+  {
+    "id": "600093",
+    "name": "Edit  Testing Data Script item",
+    "code": "tatp_testing_data_script_edit",
+    "parent_id": "600090"
+  },
+  {
+    "id": "600094",
+    "name": "Delete  Testing Data Script item",
+    "code": "tatp_testing_data_script_delete",
+    "parent_id": "600090"
+  },
+  {
+    "id": "600095",
+    "name": "Copy  Testing Data Script item",
+    "code": "tatp_testing_data_script_copy",
+    "parent_id": "600090"
+  },
+  {
+    "id": "600096",
+    "name": "View Testing Data Script item result",
+    "code": "tatp_testing_data_script_execution_result",
+    "parent_id": "600090"
+  },
+  {
+    "id": "600056",
+    "name": "Stop run",
+    "code": "tatp_run_set_result_stop_run",
+    "parent_id": "600055"
+  },
+  {
+    "id": "600055",
+    "name": "Run Set Result",
+    "code": "tatp_run_set_result",
+    "parent_id": "600054"
+  },
+  {
+    "id": "600054",
+    "name": "Run Result",
+    "code": "tatp_run_result",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600057",
+    "name": "View run result detail",
+    "code": "tatp_run_set_result_list",
+    "parent_id": "600055"
+  },
+  {
+    "id": "600059",
+    "name": "View test case result list",
+    "code": "tatp_test_case_result_list",
+    "parent_id": "600055"
+  },
+  {
+    "id": "600060",
+    "name": "View run result instruction list",
+    "code": "tatp_run_set_result_instruction_list",
+    "parent_id": "600055"
+  },
+  {
+    "id": "600061",
+    "name": "View run result instruction detail",
+    "code": "tatp_run_set_result_instruction_detail",
+    "parent_id": "600055"
+  },
+  {
+    "id": "600058",
+    "name": "Test Case Run Result",
+    "code": "tatp_test_case_run_result",
+    "parent_id": "600054"
+  },
+  {
+    "id": "600064",
+    "name": "Create config item",
+    "code": "tatp_config_item_create",
+    "parent_id": "600063"
+  },
+  {
+    "id": "600063",
+    "name": "Config Item",
+    "code": "tatp_config_item",
+    "parent_id": "600062"
+  },
+  {
+    "id": "600062",
+    "name": "General Config",
+    "code": "tatp_general_config",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600065",
+    "name": "Delete config item",
+    "code": "tatp_config_item_delete",
+    "parent_id": "600063"
+  },
+  {
+    "id": "600066",
+    "name": "View config item Property",
+    "code": "tatp_config_item_view_property",
+    "parent_id": "600063"
+  },
+  {
+    "id": "600067",
+    "name": "Edit config item Property",
+    "code": "tatp_config_item_edit_property",
+    "parent_id": "600063"
+  },
+  {
+    "id": "600068",
+    "name": "View config item detail",
+    "code": "tatp_config_item_view_detail",
+    "parent_id": "600063"
+  },
+  {
+    "id": "600069",
+    "name": "Copy config  item",
+    "code": "tatp_config_item_copy",
+    "parent_id": "600063"
+  },
+  {
+    "id": "600070",
+    "name": "Config Package",
+    "code": "tatp_config_package",
+    "parent_id": "600062"
+  },
+  {
+    "id": "600071",
+    "name": "Add config package",
+    "code": "tatp_config_package_add",
+    "parent_id": "600070"
+  },
+  {
+    "id": "600072",
+    "name": "Delete config package",
+    "code": "tatp_config_package_delete",
+    "parent_id": "600070"
+  },
+  {
+    "id": "600073",
+    "name": "View config package detail",
+    "code": "tatp_config_package_view",
+    "parent_id": "600070"
+  },
+  {
+    "id": "600074",
+    "name": "Add config item",
+    "code": "tatp_config_package_add_item",
+    "parent_id": "600070"
+  },
+  {
+    "id": "600075",
+    "name": "Delete config item",
+    "code": "tatp_config_package_delete_item",
+    "parent_id": "600070"
+  },
+  {
+    "id": "600076",
+    "name": "Copy config  package",
+    "code": "tatp_config_package_copy",
+    "parent_id": "600070"
+  },
+  {
+    "id": "600078",
+    "name": "Add Favorites",
+    "code": "tatp_collection_folder_add",
+    "parent_id": "600077"
+  },
+  {
+    "id": "600077",
+    "name": "Favorites",
+    "code": "tatp_collection_folder",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600079",
+    "name": "Edit Favorites",
+    "code": "tatp_collection_folder_edit",
+    "parent_id": "600077"
+  },
+  {
+    "id": "600080",
+    "name": "Delete Favorites",
+    "code": "tatp_collection_folder_delete",
+    "parent_id": "600077"
+  },
+  {
+    "id": "600081",
+    "name": "view Favorites item",
+    "code": "tatp_collection_folder_view_item",
+    "parent_id": "600077"
+  },
+  {
+    "id": "600082",
+    "name": "Add Test case in Favorites item",
+    "code": "tatp_collection_folder_add_item",
+    "parent_id": "600077"
+  },
+  {
+    "id": "600083",
+    "name": "Delete Test case in Favorites item",
+    "code": "tatp_collection_folder_delete_item",
+    "parent_id": "600077"
+  },
+  {
+    "id": "600085",
+    "name": "Add collection",
+    "code": "tatp_collection_add",
+    "parent_id": "600084"
+  },
+  {
+    "id": "600084",
+    "name": "Collections",
+    "code": "tatp_collection",
+    "parent_id": "600001"
+  },
+  {
+    "id": "600086",
+    "name": "Edit collection ",
+    "code": "tatp_collection_edit",
+    "parent_id": "600084"
+  },
+  {
+    "id": "600087",
+    "name": "Delete collection",
+    "code": "tatp_collection_delete",
+    "parent_id": "600084"
+  },
+  {
+    "id": "600088",
+    "name": "Copy collection",
+    "code": "tatp_collection_copy",
+    "parent_id": "600084"
+  },
+  {
+    "id": "600089",
+    "name": "Run collection",
+    "code": "tatp_collection_run",
+    "parent_id": "600084"
+  },
+  {
+    "id": "1668396863280624700",
+    "name": "Remove collection",
+    "code": "tatp_collection_remove",
+    "parent_id": "600084"
+  },
+  {
+    "id": "1667359812924329200",
+    "name": "Setting",
+    "code": "tatp_setting",
+    "parent_id": "600001"
+  },
+  {
+    "id": "1667359812929105600",
+    "name": "Notify Emails",
+    "code": "tatp_notify_emails",
+    "parent_id": "1667359812924329200"
+  },
+  {
+    "id": "1667359812944596700",
+    "name": "Add Notify Emails",
+    "code": "tatp_notify_emails_add",
+    "parent_id": "1667359812924329200"
+  },
+  {
+    "id": "1667359812959995100",
+    "name": "Edit Notify Emails",
+    "code": "tatp_notify_emails_edit",
+    "parent_id": "1667359812924329200"
+  },
+  {
+    "id": "1667359812975861900",
+    "name": "Delete Notify Emails",
+    "code": "tatp_notify_emails_delete",
+    "parent_id": "1667359812924329200"
+  },
+  {
+    "id": "1667359812990902500",
+    "name": "Performance Test",
+    "code": "tatp_performance_test",
+    "parent_id": "600001"
+  },
+  {
+    "id": "1667359813006141200",
+    "name": "Performance Test Case List",
+    "code": "tatp_performance_test_list",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813021838300",
+    "name": "Add Performance Test Case",
+    "code": "tatp_performance_test_add",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813037163300",
+    "name": "Get Performance Test Case By Id",
+    "code": "tatp_performance_test_add_by_id",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813052738700",
+    "name": "Run Performance Test Case",
+    "code": "tatp_performance_test_run",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813068312500",
+    "name": "Edit Performance Test Case",
+    "code": "tatp_performance_test_edit",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813083778000",
+    "name": "Copy Performance Test Case",
+    "code": "tatp_performance_test_copy",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813098934200",
+    "name": "Delete Performance Test Case",
+    "code": "tatp_performance_test_delete",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813115225100",
+    "name": "Performance Test Report",
+    "code": "tatp_performance_report",
+    "parent_id": "1667359812990902500"
+  },
+  {
+    "id": "1667359813130756700",
+    "name": "Resource File",
+    "code": "tatp_resource_file",
+    "parent_id": "600001"
+  },
+  {
+    "id": "1667359813146488600",
+    "name": "Upload Resource File",
+    "code": "tatp_resource_file_upload",
+    "parent_id": "1667359813130756700"
+  },
+  {
+    "id": "1667359813161919200",
+    "name": "Delete Resource File",
+    "code": "tatp_resource_file_delete",
+    "parent_id": "1667359813130756700"
+  },
+  {
+    "id": "1667359813177585000",
+    "name": "Download Resource File",
+    "code": "tatp_resource_file_download",
+    "parent_id": "1667359813130756700"
+  }
+]

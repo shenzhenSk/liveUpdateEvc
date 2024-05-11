@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,viewport-fit=cover"
+    />
+    <title>Super APP</title>
+    <script>
+      // 移动端根元素fontSize设置
+      var docEl = document.documentElement;
+      (function flexible(window, document) {
+        function setRemUnit() {
+          var ratio = docEl.clientWidth / 720;
+          const fontSize = ratio * 72;
+          docEl.style.fontSize = fontSize + 'px';
+        }
+        setRemUnit();
+        window.addEventListener('resize', setRemUnit);
+      })(window, document);
+    </script>
+    <style>
+      /* prettier-ignore */
+      .loading-spinner {
+        height: 35px;
+        width: 35px;
+        border: 2px solid transparent;
+        border-top-color: #006db9;
+        border-bottom-color: #006db9;
+        border-radius: 100%;
+        position: relative;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 50%;
+        margin: -18px auto 0 auto;
+      }
+
+      .loading-spinner::before {
+        content: '';
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        bottom: 6px;
+        left: 6px;
+        border: 2px solid transparent;
+        border-top-color: #00b7c7;
+        border-bottom-color: #00b7c7;
+        border-radius: 100%;
+        -webkit-animation: spin 1.5s linear infinite;
+        animation: spin 1.5s linear infinite;
+      }
+
+      @-webkit-keyframes spin {
+        from {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        from {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+
+        to {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <!-- <%- VITE_APP_VERSION %> -->
+  </body>
+</html>

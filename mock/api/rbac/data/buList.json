@@ -1,0 +1,2129 @@
+{
+  "tenants": [
+    {
+      "code": "WTCHK",
+      "name": "EVENT-COUNT-WTCHK",
+      "timezone": "Asia/Hong_Kong",
+      "stores": [],
+      "store_detail_list": [
+        {
+          "name": "SZ POC STORE 725",
+          "code": "725"
+        },
+        {
+          "name": "SZ POC STORE 726",
+          "code": "726"
+        },
+        {
+          "name": "SZ POC STORE 728",
+          "code": "728"
+        },
+        {
+          "name": "Festival Walk",
+          "code": "2455"
+        },
+        {
+          "name": "Fu Tung Plaza",
+          "code": "2640"
+        },
+        {
+          "name": "Tung Chung Station 2",
+          "code": "2642"
+        },
+        {
+          "name": "Tung Chung Station",
+          "code": "2648"
+        },
+        {
+          "name": "EA - K11 B2",
+          "code": "3101"
+        },
+        {
+          "name": "EA - Watson House7/F",
+          "code": "3102"
+        },
+        {
+          "name": "EA - K11 3/F",
+          "code": "3103"
+        },
+        {
+          "name": "Fung House",
+          "code": "3201"
+        },
+        {
+          "name": "Fortune Centre",
+          "code": "3202"
+        },
+        {
+          "name": "Windsor House",
+          "code": "3203"
+        },
+        {
+          "name": "Happy Valley",
+          "code": "3204"
+        },
+        {
+          "name": "Wah Ming Centre",
+          "code": "3205"
+        },
+        {
+          "name": "Belcher's Hill",
+          "code": "3206"
+        },
+        {
+          "name": "Tin Hau",
+          "code": "3207"
+        },
+        {
+          "name": "Belcher's Street",
+          "code": "3209"
+        },
+        {
+          "name": "Java Road",
+          "code": "3211"
+        },
+        {
+          "name": "Hing Wah Estate",
+          "code": "3213"
+        },
+        {
+          "name": "Hennessy Road",
+          "code": "3216"
+        },
+        {
+          "name": "Shun Tak Centre",
+          "code": "3218"
+        },
+        {
+          "name": "Caine Road",
+          "code": "3220"
+        },
+        {
+          "name": "Lai Wan Building",
+          "code": "3221"
+        },
+        {
+          "name": "Centre Street",
+          "code": "3224"
+        },
+        {
+          "name": "Kwong Sang Hong",
+          "code": "3226"
+        },
+        {
+          "name": "Aberdeen Centre",
+          "code": "3227"
+        },
+        {
+          "name": "Cityplaza",
+          "code": "3229"
+        },
+        {
+          "name": "Shau Kei Wan",
+          "code": "3231"
+        },
+        {
+          "name": "Siu Sai Wan SC",
+          "code": "3232"
+        },
+        {
+          "name": "South Horizons",
+          "code": "3233"
+        },
+        {
+          "name": "Tung Lo Wan Road",
+          "code": "3235"
+        },
+        {
+          "name": "Nam Tin Building",
+          "code": "3236"
+        },
+        {
+          "name": "Noble Sqaure",
+          "code": "3237"
+        },
+        {
+          "name": "Melbourne Plaza",
+          "code": "3239"
+        },
+        {
+          "name": "Hong Kong Station",
+          "code": "3240"
+        },
+        {
+          "name": "Hong Kong Station 2",
+          "code": "3242"
+        },
+        {
+          "name": "Stanley",
+          "code": "3245"
+        },
+        {
+          "name": "United Centre",
+          "code": "3251"
+        },
+        {
+          "name": "Stanley Plaza",
+          "code": "3257"
+        },
+        {
+          "name": "Cyberport",
+          "code": "3262"
+        },
+        {
+          "name": "King's Road 375",
+          "code": "3268"
+        },
+        {
+          "name": "Lei Tung Estate",
+          "code": "3269"
+        },
+        {
+          "name": "Admiralty Centre",
+          "code": "3275"
+        },
+        {
+          "name": "Johnston Road",
+          "code": "3276"
+        },
+        {
+          "name": "Pacific Place",
+          "code": "3282"
+        },
+        {
+          "name": "IFC Mall",
+          "code": "3283"
+        },
+        {
+          "name": "JP Plaza",
+          "code": "3284"
+        },
+        {
+          "name": "Lockhart Road 520",
+          "code": "3287"
+        },
+        {
+          "name": "Causeway Bay Plaza 1",
+          "code": "3288"
+        },
+        {
+          "name": "Times Square",
+          "code": "3289"
+        },
+        {
+          "name": "Island Place",
+          "code": "3295"
+        },
+        {
+          "name": "Hopewell Centre",
+          "code": "3297"
+        },
+        {
+          "name": "Harbour North",
+          "code": "3298"
+        },
+        {
+          "name": "Cheung Kong Centre",
+          "code": "3299"
+        },
+        {
+          "name": "Mirador Mansion",
+          "code": "3308"
+        },
+        {
+          "name": "K11 Musea",
+          "code": "3311"
+        },
+        {
+          "name": "Pacific Centre",
+          "code": "3313"
+        },
+        {
+          "name": "Argyle Street",
+          "code": "3315"
+        },
+        {
+          "name": "Sai Kung",
+          "code": "3318"
+        },
+        {
+          "name": "V Walk",
+          "code": "3319"
+        },
+        {
+          "name": "Jordan Road",
+          "code": "3323"
+        },
+        {
+          "name": "Park Central",
+          "code": "3325"
+        },
+        {
+          "name": "Hankow Rd Dark Store",
+          "code": "3326"
+        },
+        {
+          "name": "Bank Centre Mall",
+          "code": "3328"
+        },
+        {
+          "name": "Sai Yeung Choi 254",
+          "code": "3329"
+        },
+        {
+          "name": "MPM Mall",
+          "code": "3330"
+        },
+        {
+          "name": "Bute Street",
+          "code": "3331"
+        },
+        {
+          "name": "Hollywood Plaza",
+          "code": "3332"
+        },
+        {
+          "name": "Sai Yeung Choi 138",
+          "code": "3333"
+        },
+        {
+          "name": "Whampoa Garden",
+          "code": "3338"
+        },
+        {
+          "name": "Hunghom Comm Ctr",
+          "code": "3339"
+        },
+        {
+          "name": "Whampoa Grdn Health",
+          "code": "3348"
+        },
+        {
+          "name": "Yen Chow Street",
+          "code": "3363"
+        },
+        {
+          "name": "Austin Station",
+          "code": "3372"
+        },
+        {
+          "name": "Victoria Mall",
+          "code": "3373"
+        },
+        {
+          "name": "Harbour City",
+          "code": "3374"
+        },
+        {
+          "name": "Ocean Terminal",
+          "code": "3375"
+        },
+        {
+          "name": "Waterloo Road",
+          "code": "3380"
+        },
+        {
+          "name": "Yue Man Centre",
+          "code": "3383"
+        },
+        {
+          "name": "Nathan Road 581",
+          "code": "3387"
+        },
+        {
+          "name": "Metro Discovery",
+          "code": "3389"
+        },
+        {
+          "name": "Sham Shui Po 2",
+          "code": "3392"
+        },
+        {
+          "name": "Ping Shek Estate",
+          "code": "3396"
+        },
+        {
+          "name": "Temple Mall North",
+          "code": "3398"
+        },
+        {
+          "name": "Kowloon Hotel",
+          "code": "3399"
+        },
+        {
+          "name": "Jubilant Place",
+          "code": "3401"
+        },
+        {
+          "name": "Choi Wan SC",
+          "code": "3402"
+        },
+        {
+          "name": "Mongkok",
+          "code": "3403"
+        },
+        {
+          "name": "Eldex Building",
+          "code": "3405"
+        },
+        {
+          "name": "Langham Place",
+          "code": "3406"
+        },
+        {
+          "name": "Tokwawan",
+          "code": "3407"
+        },
+        {
+          "name": "Star House",
+          "code": "3408"
+        },
+        {
+          "name": "San Po Kong",
+          "code": "3410"
+        },
+        {
+          "name": "CKE Mall",
+          "code": "3413"
+        },
+        {
+          "name": "Kai Tin",
+          "code": "3414"
+        },
+        {
+          "name": "Moko",
+          "code": "3415"
+        },
+        {
+          "name": "Tak Tin Plaza",
+          "code": "3416"
+        },
+        {
+          "name": "Sheung Tak Plaza",
+          "code": "3418"
+        },
+        {
+          "name": "Amoy Plaza",
+          "code": "3419"
+        },
+        {
+          "name": "Mei Foo Plaza",
+          "code": "3421"
+        },
+        {
+          "name": "PopWalk",
+          "code": "3422"
+        },
+        {
+          "name": "Shamrock Hotel",
+          "code": "3423"
+        },
+        {
+          "name": "Mei Foo",
+          "code": "3424"
+        },
+        {
+          "name": "Hankow Road",
+          "code": "3426"
+        },
+        {
+          "name": "Fortune Metropolis",
+          "code": "3427"
+        },
+        {
+          "name": "Telford Plaza 1",
+          "code": "3428"
+        },
+        {
+          "name": "Prince Edward Rd W",
+          "code": "3432"
+        },
+        {
+          "name": "Fuk Lo Tsun Road",
+          "code": "3433"
+        },
+        {
+          "name": "Kowloon City Plaza",
+          "code": "3434"
+        },
+        {
+          "name": "Sau Mau Ping",
+          "code": "3435"
+        },
+        {
+          "name": "Hilton Tower",
+          "code": "3436"
+        },
+        {
+          "name": "Cameron Road",
+          "code": "3437"
+        },
+        {
+          "name": "Dragon Centre",
+          "code": "3438"
+        },
+        {
+          "name": "Crocodile Centre",
+          "code": "3439"
+        },
+        {
+          "name": "Mikiki",
+          "code": "3441"
+        },
+        {
+          "name": "Two Harbour Square",
+          "code": "3444"
+        },
+        {
+          "name": "Ching Long SC",
+          "code": "3446"
+        },
+        {
+          "name": "Hunghom Bay Ctr",
+          "code": "3447"
+        },
+        {
+          "name": "Lok Fu Plaza",
+          "code": "3448"
+        },
+        {
+          "name": "MegaBox",
+          "code": "3450"
+        },
+        {
+          "name": "Olympian City",
+          "code": "3451"
+        },
+        {
+          "name": "Choi Tak SC",
+          "code": "3453"
+        },
+        {
+          "name": "Festival Walk",
+          "code": "3455"
+        },
+        {
+          "name": "Alhambra Building",
+          "code": "3456"
+        },
+        {
+          "name": "Union Park Centre",
+          "code": "3466"
+        },
+        {
+          "name": "Castle Peak Road",
+          "code": "3468"
+        },
+        {
+          "name": "Granville Road 29A",
+          "code": "3469"
+        },
+        {
+          "name": "Laguna City",
+          "code": "3472"
+        },
+        {
+          "name": "China HK City",
+          "code": "3473"
+        },
+        {
+          "name": "East Point City Baby",
+          "code": "3476"
+        },
+        {
+          "name": "East Point City",
+          "code": "3477"
+        },
+        {
+          "name": "Lai Chi Kok Road",
+          "code": "3478"
+        },
+        {
+          "name": "Tsz Wan Shan",
+          "code": "3479"
+        },
+        {
+          "name": "Golden Era Plaza",
+          "code": "3480"
+        },
+        {
+          "name": "Metro Town",
+          "code": "3482"
+        },
+        {
+          "name": "Tseung Kwan O Plaza",
+          "code": "3483"
+        },
+        {
+          "name": "Pacifica Mall",
+          "code": "3485"
+        },
+        {
+          "name": "Domain",
+          "code": "3486"
+        },
+        {
+          "name": "Diamond Hill",
+          "code": "3488"
+        },
+        {
+          "name": "Metro City II",
+          "code": "3489"
+        },
+        {
+          "name": "Un Chau SC",
+          "code": "3493"
+        },
+        {
+          "name": "Chuk Yuen Estate",
+          "code": "3494"
+        },
+        {
+          "name": "Oi Man Estate",
+          "code": "3497"
+        },
+        {
+          "name": "Tsing Yi Station",
+          "code": "3501"
+        },
+        {
+          "name": "Maritime Square",
+          "code": "3504"
+        },
+        {
+          "name": "Double Cove Place",
+          "code": "3505"
+        },
+        {
+          "name": "Tsuen Kam Centre",
+          "code": "3511"
+        },
+        {
+          "name": "Park Circule",
+          "code": "3512"
+        },
+        {
+          "name": "Kwai Hing SC",
+          "code": "3513"
+        },
+        {
+          "name": "Tsuen Wan Plaza",
+          "code": "3515"
+        },
+        {
+          "name": "Belvedere Square",
+          "code": "3516"
+        },
+        {
+          "name": "Tin Shui SC",
+          "code": "3520"
+        },
+        {
+          "name": "YOHO Mall",
+          "code": "3522"
+        },
+        {
+          "name": "New Town Plaza (H)",
+          "code": "3524"
+        },
+        {
+          "name": "OP Mall",
+          "code": "3525"
+        },
+        {
+          "name": "Baby Expo/Staff Sale",
+          "code": "3540"
+        },
+        {
+          "name": "DUMMY STORE",
+          "code": "3541"
+        },
+        {
+          "name": "Airport Staff Sales",
+          "code": "3542"
+        },
+        {
+          "name": "Fu Shin Estate",
+          "code": "3550"
+        },
+        {
+          "name": "Tai Ming Lane",
+          "code": "3555"
+        },
+        {
+          "name": "Metroplaza Level 3",
+          "code": "3557"
+        },
+        {
+          "name": "Magnet Place",
+          "code": "3558"
+        },
+        {
+          "name": "Shatin Plaza Health",
+          "code": "3566"
+        },
+        {
+          "name": "V City (H)",
+          "code": "3567"
+        },
+        {
+          "name": "Fortune Kingswood",
+          "code": "3568"
+        },
+        {
+          "name": "Lok Ma Chau 3",
+          "code": "3575"
+        },
+        {
+          "name": "Shatin Galleria",
+          "code": "3577"
+        },
+        {
+          "name": "T Town",
+          "code": "3580"
+        },
+        {
+          "name": "Hilton Plaza",
+          "code": "3586"
+        },
+        {
+          "name": "Lung Hang SC",
+          "code": "3587"
+        },
+        {
+          "name": "Tai Wo Plaza",
+          "code": "3589"
+        },
+        {
+          "name": "San Fung Avenue",
+          "code": "3598"
+        },
+        {
+          "name": "Jade Plaza",
+          "code": "3599"
+        },
+        {
+          "name": "Smartland",
+          "code": "3601"
+        },
+        {
+          "name": "Airport - Arrivals",
+          "code": "3602"
+        },
+        {
+          "name": "Locwood Court",
+          "code": "3603"
+        },
+        {
+          "name": "Choi Yuen Plaza",
+          "code": "3604"
+        },
+        {
+          "name": "Gold Coast",
+          "code": "3605"
+        },
+        {
+          "name": "Fanling Town Centre",
+          "code": "3606"
+        },
+        {
+          "name": "Kin Shing Building",
+          "code": "3607"
+        },
+        {
+          "name": "Kwai Shing East",
+          "code": "3608"
+        },
+        {
+          "name": "Shek Yam",
+          "code": "3610"
+        },
+        {
+          "name": "Airport - Departures",
+          "code": "3612"
+        },
+        {
+          "name": "Chelsea Heights",
+          "code": "3613"
+        },
+        {
+          "name": "Shek Lei Estate",
+          "code": "3614"
+        },
+        {
+          "name": "Citywalk 1",
+          "code": "3615"
+        },
+        {
+          "name": "Fook Tak Street",
+          "code": "3617"
+        },
+        {
+          "name": "Tin Chak SC",
+          "code": "3618"
+        },
+        {
+          "name": "Kin Sang Estate",
+          "code": "3621"
+        },
+        {
+          "name": "Lei Muk Shue",
+          "code": "3622"
+        },
+        {
+          "name": "Rambler Plaza",
+          "code": "3625"
+        },
+        {
+          "name": "Dawning Views Plaza",
+          "code": "3628"
+        },
+        {
+          "name": "Po Heung Street",
+          "code": "3629"
+        },
+        {
+          "name": "Uptown Plaza",
+          "code": "3630"
+        },
+        {
+          "name": "Luk Yeung Sun Chuen",
+          "code": "3632"
+        },
+        {
+          "name": "Shatin Plaza",
+          "code": "3633"
+        },
+        {
+          "name": "Lido Avenue",
+          "code": "3634"
+        },
+        {
+          "name": "Ma On Shan Plaza",
+          "code": "3635"
+        },
+        {
+          "name": "MOSTown",
+          "code": "3636"
+        },
+        {
+          "name": "New Town Plaza",
+          "code": "3638"
+        },
+        {
+          "name": "Sheung Shui Centre",
+          "code": "3639"
+        },
+        {
+          "name": "Fu Tung Plaza",
+          "code": "3640"
+        },
+        {
+          "name": "Lok Ma Chau 4",
+          "code": "3641"
+        },
+        {
+          "name": "Tung Chung Station 2",
+          "code": "3642"
+        },
+        {
+          "name": "Discovery Bay",
+          "code": "3643"
+        },
+        {
+          "name": "On Ting SC",
+          "code": "3647"
+        },
+        {
+          "name": "Tung Chung Station",
+          "code": "3648"
+        },
+        {
+          "name": "Spot",
+          "code": "3649"
+        },
+        {
+          "name": "Palazzo",
+          "code": "3652"
+        },
+        {
+          "name": "City One",
+          "code": "3653"
+        },
+        {
+          "name": "Yuen Long",
+          "code": "3654"
+        },
+        {
+          "name": "Tai Wo Plaza",
+          "code": "3657"
+        },
+        {
+          "name": "San Hong Street 2",
+          "code": "3658"
+        },
+        {
+          "name": "Sheung Shui",
+          "code": "3661"
+        },
+        {
+          "name": "Regentville",
+          "code": "3662"
+        },
+        {
+          "name": "Sheung Shui Station",
+          "code": "3663"
+        },
+        {
+          "name": "Lok Ma Chau Station",
+          "code": "3665"
+        },
+        {
+          "name": "Citywalk 2",
+          "code": "3666"
+        },
+        {
+          "name": "Chung On Estate",
+          "code": "3668"
+        },
+        {
+          "name": "Mayfair Lane",
+          "code": "3670"
+        },
+        {
+          "name": "Tai Po Mega Mall",
+          "code": "3671"
+        },
+        {
+          "name": "Cheung Fat Estate",
+          "code": "3672"
+        },
+        {
+          "name": "Landmark North",
+          "code": "3673"
+        },
+        {
+          "name": "Kolour Tsuen Wan 1",
+          "code": "3674"
+        },
+        {
+          "name": "Lok Ma Chau Arrival",
+          "code": "3675"
+        },
+        {
+          "name": "D. Park",
+          "code": "3677"
+        },
+        {
+          "name": "New Yuen Long",
+          "code": "3678"
+        },
+        {
+          "name": "Sun Tuen Mun Centre",
+          "code": "3679"
+        },
+        {
+          "name": "Tuen Mun Town Plaza",
+          "code": "3680"
+        },
+        {
+          "name": "Tuen Mun Trend Plaza",
+          "code": "3681"
+        },
+        {
+          "name": "Tuen Mun",
+          "code": "3682"
+        },
+        {
+          "name": "Cheung Chau",
+          "code": "3683"
+        },
+        {
+          "name": "Tai Wai",
+          "code": "3685"
+        },
+        {
+          "name": "Tai Wai Station",
+          "code": "3686"
+        },
+        {
+          "name": "Metropolis Plaza L2",
+          "code": "3687"
+        },
+        {
+          "name": "Tin Ping Estate",
+          "code": "3688"
+        },
+        {
+          "name": "Metropolis Plaza",
+          "code": "3689"
+        },
+        {
+          "name": "Butterfly Plaza",
+          "code": "3691"
+        },
+        {
+          "name": "Tseng Choi Street",
+          "code": "3692"
+        },
+        {
+          "name": "Lucky Plaza",
+          "code": "3693"
+        },
+        {
+          "name": "V City",
+          "code": "3694"
+        },
+        {
+          "name": "K-Point",
+          "code": "3697"
+        },
+        {
+          "name": "Sau Fu Street",
+          "code": "3698"
+        },
+        {
+          "name": "YL Castle Peak Rd 75",
+          "code": "3699"
+        },
+        {
+          "name": "Consignment to WMall",
+          "code": "3718"
+        },
+        {
+          "name": "AIRPORT STORE 721",
+          "code": "3721"
+        },
+        {
+          "name": "AIRPORT STORE 722 PX",
+          "code": "3722"
+        },
+        {
+          "name": "AIRPORT STORE 723",
+          "code": "3723"
+        },
+        {
+          "name": "AIRPORT STORE 724",
+          "code": "3724"
+        },
+        {
+          "name": "NW/SCW",
+          "code": "3725"
+        },
+        {
+          "name": "4060 AIRSIDE ARRIVAL",
+          "code": "3726"
+        },
+        {
+          "name": "WTC5 CC 4050",
+          "code": "3727"
+        },
+        {
+          "name": "4070 AWE",
+          "code": "3728"
+        },
+        {
+          "name": "PNS DC",
+          "code": "3729"
+        },
+        {
+          "name": "PNS-SDC",
+          "code": "3730"
+        },
+        {
+          "name": "Cross Border China",
+          "code": "3736"
+        },
+        {
+          "name": "WTCHK CS",
+          "code": "3738"
+        },
+        {
+          "name": "Fook Sing Court",
+          "code": "3750"
+        },
+        {
+          "name": "Bulk Sales",
+          "code": "3800"
+        },
+        {
+          "name": "iWatsons",
+          "code": "3887"
+        },
+        {
+          "name": "WTC HK DEFAULT STORE",
+          "code": "3888"
+        },
+        {
+          "name": "eCom Project WIN",
+          "code": "3894"
+        },
+        {
+          "name": "eCom CS Return Store",
+          "code": "3895"
+        },
+        {
+          "name": "eCom Click & Collect",
+          "code": "3896"
+        },
+        {
+          "name": "CONSIGNMENT TO FTR",
+          "code": "3897"
+        },
+        {
+          "name": "HK Home Delivery",
+          "code": "3898"
+        },
+        {
+          "name": "eCom Cross Border",
+          "code": "3899"
+        },
+        {
+          "name": "Watsons China",
+          "code": "3901"
+        },
+        {
+          "name": "WTC-BUYING",
+          "code": "3905"
+        },
+        {
+          "name": "WATSON'S PTE LTD.",
+          "code": "3906"
+        },
+        {
+          "name": "WATSON'S-PNS LTD.",
+          "code": "3907"
+        },
+        {
+          "name": "FLOWER CITY",
+          "code": "3908"
+        },
+        {
+          "name": "CENTRAL WATSON THAI",
+          "code": "3940"
+        },
+        {
+          "name": "WATSON'S THE CHEMIST",
+          "code": "3950"
+        },
+        {
+          "name": "GENERAL OFFICE",
+          "code": "3990"
+        },
+        {
+          "name": "ACCOUNTING",
+          "code": "3991"
+        },
+        {
+          "name": "Fortress",
+          "code": "3993"
+        },
+        {
+          "name": "TRAINING & HR",
+          "code": "3994"
+        },
+        {
+          "name": "STORE OPERATION",
+          "code": "3995"
+        },
+        {
+          "name": "GIFT COUPON CENTRE",
+          "code": "3998"
+        },
+        {
+          "name": "Whampoa Grdn Health",
+          "code": "3348"
+        },
+        {
+          "name": "Metro Town",
+          "code": "3482"
+        },
+        {
+          "name": "Fortune Kingwood",
+          "code": "3568"
+        },
+        {
+          "name": "HKIA Departure",
+          "code": "3612"
+        },
+        {
+          "name": "Trend Plaza",
+          "code": "3681"
+        },
+        {
+          "name": "Stanley Plaza",
+          "code": "3257"
+        },
+        {
+          "name": "Harbour North",
+          "code": "3298"
+        },
+        {
+          "name": "Argyle Street",
+          "code": "3315"
+        },
+        {
+          "name": "Kowloon Hotel",
+          "code": "3399"
+        },
+        {
+          "name": "Mei Foo Plaza",
+          "code": "3421"
+        },
+        {
+          "name": "PopWalk",
+          "code": "3422"
+        },
+        {
+          "name": "Two Harbour Square",
+          "code": "3444"
+        },
+        {
+          "name": "Sai Yeung Choi Street South",
+          "code": "3487"
+        },
+        {
+          "name": "Park Circle3512",
+          "code": "3512"
+        },
+        {
+          "name": "Shatin Plaza Health",
+          "code": "3566"
+        },
+        {
+          "name": "Lok Ma Chau 3",
+          "code": "3575"
+        },
+        {
+          "name": "San Fung Avenue",
+          "code": "3598"
+        },
+        {
+          "name": "HKIA Arrival",
+          "code": "3602"
+        },
+        {
+          "name": "Kin Shing Building",
+          "code": "3607"
+        },
+        {
+          "name": "Fook Tak Street",
+          "code": "3617"
+        },
+        {
+          "name": "Rambler Plaza",
+          "code": "3625"
+        },
+        {
+          "name": "Lok Ma Chau 4",
+          "code": "3641"
+        },
+        {
+          "name": "Tung Chun Station",
+          "code": "3648"
+        },
+        {
+          "name": "Lok Ma Chau",
+          "code": "3665"
+        },
+        {
+          "name": "Lok Ma Chau Station",
+          "code": "3675"
+        },
+        {
+          "name": "Macau The Nova",
+          "code": "3967"
+        },
+        {
+          "name": "Austin Station",
+          "code": "3372"
+        },
+        {
+          "name": "Victoria Mall",
+          "code": "3373"
+        },
+        {
+          "name": "Pacific Centre",
+          "code": "3313"
+        },
+        {
+          "name": "Fook Sing Court",
+          "code": "3750"
+        },
+        {
+          "name": "Mirador Mansion",
+          "code": "3308"
+        },
+        {
+          "name": "Windsor House",
+          "code": "3203"
+        },
+        {
+          "name": "Cyberport Mini",
+          "code": "3262"
+        },
+        {
+          "name": "Lockhart Road 520",
+          "code": "3287"
+        },
+        {
+          "name": "Macau Studio City",
+          "code": "3989"
+        },
+        {
+          "name": "K11 Musea",
+          "code": "3311"
+        },
+        {
+          "name": "Golden Era Plaza",
+          "code": "3480"
+        },
+        {
+          "name": "Galaxy Macau",
+          "code": "3968"
+        },
+        {
+          "name": "Sai Yeung Choi 254",
+          "code": "3329"
+        },
+        {
+          "name": "Magnet Place",
+          "code": "3558"
+        },
+        {
+          "name": "China HK City",
+          "code": "3473"
+        },
+        {
+          "name": "Lai Chi Kok Road",
+          "code": "3478"
+        },
+        {
+          "name": "Noble Square",
+          "code": "3237"
+        },
+        {
+          "name": "Tung Chung",
+          "code": "3642"
+        },
+        {
+          "name": "New Town Plaza",
+          "code": "3524"
+        },
+        {
+          "name": "CKE Shopping Mall",
+          "code": "3413"
+        },
+        {
+          "name": "Flower City",
+          "code": "3984"
+        },
+        {
+          "name": "Waterloo Road",
+          "code": "3380"
+        },
+        {
+          "name": "Mikki",
+          "code": "3441"
+        },
+        {
+          "name": "Sheung Shui Station",
+          "code": "3663"
+        },
+        {
+          "name": "Ocean Terminal",
+          "code": "3375"
+        },
+        {
+          "name": "Langham Place",
+          "code": "3406"
+        },
+        {
+          "name": "Lung Hang Shopping Centre",
+          "code": "3587"
+        },
+        {
+          "name": "MOKO",
+          "code": "3415"
+        },
+        {
+          "name": "Ching Long Shopping Centre",
+          "code": "3446"
+        },
+        {
+          "name": "Bute Street",
+          "code": "3331"
+        },
+        {
+          "name": "Dawning Views Plaza",
+          "code": "3628"
+        },
+        {
+          "name": "V Walk",
+          "code": "3319"
+        },
+        {
+          "name": "Hing Wah Estate",
+          "code": "3213"
+        },
+        {
+          "name": "Jade Plaza",
+          "code": "3599"
+        },
+        {
+          "name": "Belcher's Street",
+          "code": "3209"
+        },
+        {
+          "name": "Pacifica Mall",
+          "code": "3485"
+        },
+        {
+          "name": "Alhambra Building",
+          "code": "3456"
+        },
+        {
+          "name": "Oi Man",
+          "code": "3497"
+        },
+        {
+          "name": "Hunghom Commercial Centre",
+          "code": "3339"
+        },
+        {
+          "name": "Metropolis Plaza",
+          "code": "3689"
+        },
+        {
+          "name": "OP Mall",
+          "code": "3525"
+        },
+        {
+          "name": "Cotai Central Maca",
+          "code": "3942"
+        },
+        {
+          "name": "SPOT",
+          "code": "3649"
+        },
+        {
+          "name": "Sham Shui Po 2",
+          "code": "3392"
+        },
+        {
+          "name": "Tak Tin Shopping Centre",
+          "code": "3416"
+        },
+        {
+          "name": "Sai Yeung Choi Street",
+          "code": "3333"
+        },
+        {
+          "name": "Tin Ping",
+          "code": "3688"
+        },
+        {
+          "name": "Lei Tung",
+          "code": "3269"
+        },
+        {
+          "name": "Meteropolis Mall",
+          "code": "3427"
+        },
+        {
+          "name": "Kin Sang",
+          "code": "3621"
+        },
+        {
+          "name": "Eldex Ind Bldg",
+          "code": "3405"
+        },
+        {
+          "name": "Kwai Hing Shopping Centre",
+          "code": "3513"
+        },
+        {
+          "name": "Hilton Plaza",
+          "code": "3586"
+        },
+        {
+          "name": "Butterfly Estate",
+          "code": "3691"
+        },
+        {
+          "name": "Mayfair Lane",
+          "code": "3670"
+        },
+        {
+          "name": "Kwong Sang Hong",
+          "code": "3226"
+        },
+        {
+          "name": "Prince Edward Rd West",
+          "code": "3432"
+        },
+        {
+          "name": "Metro Discovery",
+          "code": "3389"
+        },
+        {
+          "name": "Centro Com",
+          "code": "3928"
+        },
+        {
+          "name": "Sai Kung",
+          "code": "3318"
+        },
+        {
+          "name": "Hopewell Centre",
+          "code": "3297"
+        },
+        {
+          "name": "Caine Road",
+          "code": "3220"
+        },
+        {
+          "name": "Venetian",
+          "code": "3988"
+        },
+        {
+          "name": "Macau La Marina",
+          "code": "3955"
+        },
+        {
+          "name": "Choi Wan Shopping Centre",
+          "code": "3402"
+        },
+        {
+          "name": "Ping Shek Estate",
+          "code": "3396"
+        },
+        {
+          "name": "MegaBox",
+          "code": "3450"
+        },
+        {
+          "name": "Hollywood Plaza",
+          "code": "3332"
+        },
+        {
+          "name": "Kwai Shing East",
+          "code": "3608"
+        },
+        {
+          "name": "Shatin Galleria",
+          "code": "3577"
+        },
+        {
+          "name": "Choi Tak Shopping Centre",
+          "code": "3453"
+        },
+        {
+          "name": "Tai Ming Lane",
+          "code": "3555"
+        },
+        {
+          "name": "Java Road",
+          "code": "3211"
+        },
+        {
+          "name": "Park Central",
+          "code": "3325"
+        },
+        {
+          "name": "Sun Tuen Mun Centre",
+          "code": "3679"
+        },
+        {
+          "name": "Fuk Lo Tsun Road",
+          "code": "3433"
+        },
+        {
+          "name": "On Ting Shopping Centre",
+          "code": "3647"
+        },
+        {
+          "name": "Nathan Road 581",
+          "code": "3387"
+        },
+        {
+          "name": "Chuk Yuen Shopping Centre",
+          "code": "3494"
+        },
+        {
+          "name": "San Po Kong",
+          "code": "3410"
+        },
+        {
+          "name": "Tseng Choi Street",
+          "code": "3692"
+        },
+        {
+          "name": "Double Cove Place",
+          "code": "3505"
+        },
+        {
+          "name": "Tung Lo Wan",
+          "code": "3235"
+        },
+        {
+          "name": "Chelsea Heights",
+          "code": "3613"
+        },
+        {
+          "name": "Cheung Fat Estate",
+          "code": "3672"
+        },
+        {
+          "name": "Lai Wan Building",
+          "code": "3221"
+        },
+        {
+          "name": "Shek Yam",
+          "code": "3610"
+        },
+        {
+          "name": "MTR HK Station",
+          "code": "3240"
+        },
+        {
+          "name": "Macau Nam Fai Bldg",
+          "code": "3953"
+        },
+        {
+          "name": "KOLOUR",
+          "code": "3674"
+        },
+        {
+          "name": "Belcher's Hill",
+          "code": "3206"
+        },
+        {
+          "name": "Causeway Bay Plaza 1",
+          "code": "3288"
+        },
+        {
+          "name": "South Horizons",
+          "code": "3233"
+        },
+        {
+          "name": "K-Point",
+          "code": "3697"
+        },
+        {
+          "name": "Lei Muk Shu",
+          "code": "3622"
+        },
+        {
+          "name": "Johnston Road",
+          "code": "3276"
+        },
+        {
+          "name": "Granville Road",
+          "code": "3469"
+        },
+        {
+          "name": "Gold Coast",
+          "code": "3605"
+        },
+        {
+          "name": "King's Road",
+          "code": "3268"
+        },
+        {
+          "name": "MPM Mall",
+          "code": "3330"
+        },
+        {
+          "name": "Hunghom Bay Center",
+          "code": "3447"
+        },
+        {
+          "name": "Union Park Centre",
+          "code": "3466"
+        },
+        {
+          "name": "Domain",
+          "code": "3486"
+        },
+        {
+          "name": "Un Chau Street",
+          "code": "3493"
+        },
+        {
+          "name": "Sau Fu Street",
+          "code": "3698"
+        },
+        {
+          "name": "Kowloon City Plaza",
+          "code": "3434"
+        },
+        {
+          "name": "Chung On Estate",
+          "code": "3668"
+        },
+        {
+          "name": "Fu Shin Shopping Centre",
+          "code": "3550"
+        },
+        {
+          "name": "Castle Peak Rd 75",
+          "code": "3699"
+        },
+        {
+          "name": "Tsuen Wan Plaza",
+          "code": "3515"
+        },
+        {
+          "name": "Hilton Tower",
+          "code": "3436"
+        },
+        {
+          "name": "Temple Mall North",
+          "code": "3398"
+        },
+        {
+          "name": "Regentiville Shopping Mall",
+          "code": "3662"
+        },
+        {
+          "name": "Nam Tin Bldg",
+          "code": "3236"
+        },
+        {
+          "name": "Amoy Plaza",
+          "code": "3419"
+        },
+        {
+          "name": "Tsz Wan Shan",
+          "code": "3479"
+        },
+        {
+          "name": "Belvedere Square",
+          "code": "3516"
+        },
+        {
+          "name": "Tsing Yi Station",
+          "code": "3501"
+        },
+        {
+          "name": "The Palazzo",
+          "code": "3652"
+        },
+        {
+          "name": "Sau Mau Ping",
+          "code": "3435"
+        },
+        {
+          "name": "D.Park (Watsons Baby)",
+          "code": "3677"
+        },
+        {
+          "name": "Shek Lei Estate",
+          "code": "3614"
+        },
+        {
+          "name": "Tuen Mun Town Plaza Phase II",
+          "code": "3680"
+        },
+        {
+          "name": "STANLEY",
+          "code": "3245"
+        },
+        {
+          "name": "V City",
+          "code": "3694"
+        },
+        {
+          "name": "Lido Avenue",
+          "code": "3634"
+        },
+        {
+          "name": "V City",
+          "code": "3567"
+        },
+        {
+          "name": "JP Plaza",
+          "code": "3284"
+        },
+        {
+          "name": "Tin Chak Shopping Centre",
+          "code": "3618"
+        },
+        {
+          "name": "Hoi Pan Fa Un",
+          "code": "3985"
+        },
+        {
+          "name": "Wah Ming Centre",
+          "code": "3205"
+        },
+        {
+          "name": "IFC Mall",
+          "code": "3283"
+        },
+        {
+          "name": "Cheung Kong Centre",
+          "code": "3299"
+        },
+        {
+          "name": "Siu Sai Wan Shopping Centre",
+          "code": "3232"
+        },
+        {
+          "name": "City Walk 2",
+          "code": "3666"
+        },
+        {
+          "name": "Center Street",
+          "code": "3224"
+        },
+        {
+          "name": "Cheung Chau Road",
+          "code": "3683"
+        },
+        {
+          "name": "Hankow Road",
+          "code": "3426"
+        },
+        {
+          "name": "East Point Baby",
+          "code": "3476"
+        },
+        {
+          "name": "Laguna City",
+          "code": "3472"
+        },
+        {
+          "name": "Fu Tung Plaza",
+          "code": "3640"
+        },
+        {
+          "name": "Jubilant Place",
+          "code": "3401"
+        },
+        {
+          "name": "Dragon Centre",
+          "code": "3438"
+        },
+        {
+          "name": "Macau I Campo",
+          "code": "3902"
+        },
+        {
+          "name": "Macau Tri Light",
+          "code": "3903"
+        },
+        {
+          "name": "United Centre",
+          "code": "3251"
+        },
+        {
+          "name": "Sheung Tak Shopping Centre",
+          "code": "3418"
+        },
+        {
+          "name": "Yue Man Centre",
+          "code": "3383"
+        },
+        {
+          "name": "Landmark North",
+          "code": "3673"
+        },
+        {
+          "name": "Tokwawan",
+          "code": "3407"
+        },
+        {
+          "name": "Smartland",
+          "code": "3601"
+        },
+        {
+          "name": "Citywalk1",
+          "code": "3615"
+        },
+        {
+          "name": "Tai Wai",
+          "code": "3685"
+        },
+        {
+          "name": "Shau Kei Wan",
+          "code": "3231"
+        },
+        {
+          "name": "Tai Wo Plaza",
+          "code": "3657"
+        },
+        {
+          "name": "Locwood Court",
+          "code": "3603"
+        },
+        {
+          "name": "Yoho Mall",
+          "code": "3522"
+        },
+        {
+          "name": "Taiwai Station",
+          "code": "3686"
+        },
+        {
+          "name": "Costa",
+          "code": "3938"
+        },
+        {
+          "name": "Macau 5 Hong Vo",
+          "code": "3952"
+        },
+        {
+          "name": "Po Heung Street",
+          "code": "3629"
+        },
+        {
+          "name": "Tai Po Mega Mall",
+          "code": "3671"
+        },
+        {
+          "name": "Island Place",
+          "code": "3295"
+        },
+        {
+          "name": "Tin Shui Shopping Centre",
+          "code": "3520"
+        },
+        {
+          "name": "Diamond Hill",
+          "code": "3488"
+        },
+        {
+          "name": "Shun Tak Centre",
+          "code": "3218"
+        },
+        {
+          "name": "Shatin Plaza",
+          "code": "3633"
+        },
+        {
+          "name": "Discovery Bay",
+          "code": "3643"
+        },
+        {
+          "name": "Sheung Shui Centre",
+          "code": "3639"
+        },
+        {
+          "name": "Lok Fu Shopping Centre",
+          "code": "3448"
+        },
+        {
+          "name": "T Town",
+          "code": "3580"
+        },
+        {
+          "name": "Uptown Plaza",
+          "code": "3630"
+        },
+        {
+          "name": "Fung House",
+          "code": "3201"
+        },
+        {
+          "name": "Maritime Square",
+          "code": "3504"
+        },
+        {
+          "name": "Kai Tin",
+          "code": "3414"
+        },
+        {
+          "name": "Sheung Shui Fu Hing St.",
+          "code": "3661"
+        },
+        {
+          "name": "Admiralty Centre",
+          "code": "3275"
+        },
+        {
+          "name": "Fortune City One",
+          "code": "3653"
+        },
+        {
+          "name": "Macau Senado Square",
+          "code": "3922"
+        },
+        {
+          "name": "Ma On Shan",
+          "code": "3635"
+        },
+        {
+          "name": "Choi Yuen Plaza",
+          "code": "3604"
+        },
+        {
+          "name": "Metro City Phase II",
+          "code": "3489"
+        },
+        {
+          "name": "East Point City",
+          "code": "3477"
+        },
+        {
+          "name": "Tseung Kwan O Plaza",
+          "code": "3483"
+        },
+        {
+          "name": "Tsuen Kam Centre",
+          "code": "3511"
+        },
+        {
+          "name": "Telford Plaza I",
+          "code": "3428"
+        },
+        {
+          "name": "New Town Plaza",
+          "code": "3638"
+        },
+        {
+          "name": "Olympian City 2",
+          "code": "3451"
+        },
+        {
+          "name": "Metroplaza2",
+          "code": "3557"
+        },
+        {
+          "name": "Hennessy Road",
+          "code": "3216"
+        },
+        {
+          "name": "Lucky Plaza",
+          "code": "3693"
+        },
+        {
+          "name": "Star House",
+          "code": "3408"
+        },
+        {
+          "name": "Mei Foo",
+          "code": "3424"
+        },
+        {
+          "name": "Tin Hau",
+          "code": "3207"
+        },
+        {
+          "name": "Yuen Long",
+          "code": "3654"
+        },
+        {
+          "name": "New Yuen Long",
+          "code": "3678"
+        },
+        {
+          "name": "Jordan Road",
+          "code": "3323"
+        },
+        {
+          "name": "Time Square",
+          "code": "3289"
+        },
+        {
+          "name": "Cameron Road",
+          "code": "3437"
+        },
+        {
+          "name": "Melbourne Plaza",
+          "code": "3239"
+        },
+        {
+          "name": "Pacific Place",
+          "code": "3282"
+        },
+        {
+          "name": "Tai Koo Shing",
+          "code": "3229"
+        },
+        {
+          "name": "Festival Walk",
+          "code": "3455"
+        },
+        {
+          "name": "Fanling Town Centre",
+          "code": "3606"
+        },
+        {
+          "name": "Crocodile Centre",
+          "code": "3439"
+        },
+        {
+          "name": "MOS Town",
+          "code": "3636"
+        },
+        {
+          "name": "Tuen Mun Town Plaza",
+          "code": "3682"
+        },
+        {
+          "name": "Aberdeen",
+          "code": "3227"
+        },
+        {
+          "name": "Whampoa Garden",
+          "code": "3338"
+        },
+        {
+          "name": "Luk Yeung Sun Chuen",
+          "code": "3632"
+        },
+        {
+          "name": "Fortune Centre",
+          "code": "3202"
+        },
+        {
+          "name": "Harbour City",
+          "code": "3374"
+        },
+        {
+          "name": "Wu Sang House",
+          "code": "3403"
+        },
+        {
+          "name": "Metropolis Plaza L2",
+          "code": "3687"
+        },
+        {
+          "name": "eStore",
+          "code": "3898"
+        },
+        {
+          "name": "eCOM Click & Collect",
+          "code": "3896"
+        },
+        {
+          "name": "Lohas",
+          "code": "3498"
+        },
+        {
+          "name": "Leung King Plaza",
+          "code": "3623"
+        },
+        {
+          "name": "Pak Tin",
+          "code": "3391"
+        },
+        {
+          "name": "ShekLei Shopping Ctr",
+          "code": "3611"
+        },
+        {
+          "name": "Sai Kung Garden",
+          "code": "3751"
+        },
+        {
+          "name": "Lei Tung Estate",
+          "code": "3228"
+        }
+      ]
+    }
+  ],
+  "default_tenant_code": "WTCHK"
+}

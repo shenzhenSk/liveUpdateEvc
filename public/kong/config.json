@@ -1,0 +1,341 @@
+{
+  "osp-superapp-portal": {
+    "asia": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "uat": {
+        "serve": true,
+        "requests": {
+          "token": {
+            "url": "https://sit.api.apac.aswatson.net/osp/oauth2/token",
+            "method:": "post",
+            "data": {
+              "grant_type": "client_credentials",
+              "provision_key": "OSP",
+              "client_id": "osp_sit",
+              "client_secret": "osp_sit"
+            }
+          }
+        },
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      }
+    },
+    "eu": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "6j2AHemxmsGMmIs9rtdys0DK04Hag6s1"
+        }
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "axiBpmRYqN99pWG9r3horNTNgWxpvlfG"
+        }
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "1rJIsucJVrZi3mwDTAYlfAE2A6bWjrqL"
+        }
+      }
+    }
+  },
+  "osp-superapp-event-count": {
+    "asia": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "uat": {
+        "serve": true,
+        "requests": {
+          "token": {
+            "url": "https://sit.api.apac.aswatson.net/osp/oauth2/token",
+            "method:": "post",
+            "data": {
+              "grant_type": "client_credentials",
+              "provision_key": "OSP",
+              "client_id": "osp_sit",
+              "client_secret": "osp_sit"
+            }
+          }
+        },
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      }
+    },
+    "eu": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "6j2AHemxmsGMmIs9rtdys0DK04Hag6s1"
+        }
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "axiBpmRYqN99pWG9r3horNTNgWxpvlfG"
+        }
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "1rJIsucJVrZi3mwDTAYlfAE2A6bWjrqL"
+        }
+      }
+    }
+  },
+  "osp-superapp-shelf-fulfillment": {
+    "asia": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "uat": {
+        "serve": true,
+        "requests": {
+          "token": {
+            "url": "https://sit.api.apac.aswatson.net/osp/oauth2/token",
+            "method:": "post",
+            "data": {
+              "grant_type": "client_credentials",
+              "provision_key": "OSP",
+              "client_id": "osp_sit",
+              "client_secret": "osp_sit"
+            }
+          }
+        },
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      }
+    },
+    "eu": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "jMkcGNJgODH8Jhw0obFIxJbVOGGDOHzz"
+        }
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "zyB4eECVlRJoQ8xsQEKL2WteoaVCzcHN"
+        }
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "1rJIsucJVrZi3mwDTAYlfAE2A6bWjrqL"
+        }
+      }
+    }
+  },
+  "osp-superapp-pick-pack-orders": {
+    "asia": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      }
+    },
+    "eu": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "bpz8GFrfuul43nCcJbSj08GT56x3K2jy"
+        }
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "1rJIsucJVrZi3mwDTAYlfAE2A6bWjrqL"
+        }
+      }
+    }
+  },
+  "osp-superapp-collect-orders": {
+    "asia": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      }
+    },
+    "eu": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "bpz8GFrfuul43nCcJbSj08GT56x3K2jy"
+        }
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "1rJIsucJVrZi3mwDTAYlfAE2A6bWjrqL"
+        }
+      }
+    }
+  },
+  "osp-superapp-receive-orders": {
+    "asia": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      }
+    },
+    "eu": {
+      "dev": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "sit": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "bpz8GFrfuul43nCcJbSj08GT56x3K2jy"
+        }
+      },
+      "uat": {
+        "serve": false,
+        "requests": {},
+        "results": {}
+      },
+      "prod": {
+        "serve": false,
+        "requests": {},
+        "results": {
+          "X-ASW-APIKey": "1rJIsucJVrZi3mwDTAYlfAE2A6bWjrqL"
+        }
+      }
+    }
+  }
+}

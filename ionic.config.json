@@ -1,0 +1,7 @@
+{
+  "name": "osp-frontend-vue3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
