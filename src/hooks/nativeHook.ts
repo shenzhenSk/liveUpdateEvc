@@ -1,8 +1,9 @@
 import NativeAPI from 'superapp-miniapp-invoke-native';
 import config from '@/config/global';
+import mockNativeData from '@/config/global/mockNativeData';
 import { laserScanCallback } from '@/hooks/laserScan';
 import type { Router, RouteLocationNormalizedLoaded } from 'vue-router';
-import euKongInfo from '@/service/kong/eu';
+// import euKongInfo from '@/service/kong/eu';
 
 import { GlobalStore } from '@/stores';
 
@@ -15,14 +16,13 @@ export async function initRBACInfo() {
   const store = GlobalStore();
 
   // set set min app version
-  NativeAPI.communicatePlugins.setMiniAppVersion({
-    miniAppVersion: config.buildTime,
-  });
+  // NativeAPI.communicatePlugins.setMiniAppVersion({
+  //   miniAppVersion: config.buildTime,
+  // });
 
   // Get user info and other info
-  const nativeAppInfo = NativeAPI.initialContextPlugins.getNativeInfo({
-    mockData: config.mockData,
-  });
+  const nativeAppInfo = mockNativeData;
+  console.log('nativeAppInfo', nativeAppInfo);
 
   if (config.dev) {
     nativeAppInfo.data_info.serverInfo.serverEnv = config.mockServerInfo.env;
@@ -40,36 +40,36 @@ export async function initRBACInfo() {
   // Set store
   const data_store = nativeAppInfo?.data_store ?? null;
   store.initStoreInfo(data_store);
-  const continent = store.userInfo?.serverInfo?.serverArea;
+  // const continent = store.userInfo?.serverInfo?.serverArea;
   //Set kong info
-  if (config.dev) {
-    if (continent === 'asia') {
-      store.initKongToken();
-    } else if (continent === 'eu') {
-      store.setKongInfo({ token: euKongInfo.APIKey.dev });
-      store.setLoadedKongToken(true);
-    }
-  } else {
-    const appName = 'osp-superapp-event-count';
-    console.log('get kong token...');
-    try {
-      const tokenInfos = await NativeAPI.communicatePlugins.getMiniAppKong({
-        miniAppNames: [appName],
-      });
-      console.log('tokenInfos', tokenInfos);
-      const evcTokenInfo = tokenInfos[appName];
-      let token = '';
-      if (continent === 'asia') {
-        token = evcTokenInfo?.token?.['access_token'];
-      } else if (continent === 'eu') {
-        token = evcTokenInfo?.['X-ASW-APIKey'];
-      }
-      store.setKongInfo({ token });
-      store.setLoadedKongToken(true);
-    } catch (error) {
-      console.log('get kong token error', error);
-    }
-  }
+  // if (config.dev) {
+  //   if (continent === 'asia') {
+  //     store.initKongToken();
+  //   } else if (continent === 'eu') {
+  //     store.setKongInfo({ token: euKongInfo.APIKey.dev });
+  //     store.setLoadedKongToken(true);
+  //   }
+  // } else {
+  //   const appName = 'osp-superapp-event-count';
+  //   console.log('get kong token...');
+  //   try {
+  //     const tokenInfos = await NativeAPI.communicatePlugins.getMiniAppKong({
+  //       miniAppNames: [appName],
+  //     });
+  //     console.log('tokenInfos', tokenInfos);
+  //     const evcTokenInfo = tokenInfos[appName];
+  //     let token = '';
+  //     if (continent === 'asia') {
+  //       token = evcTokenInfo?.token?.['access_token'];
+  //     } else if (continent === 'eu') {
+  //       token = evcTokenInfo?.['X-ASW-APIKey'];
+  //     }
+  //     store.setKongInfo({ token });
+  //     store.setLoadedKongToken(true);
+  //   } catch (error) {
+  //     console.log('get kong token error', error);
+  //   }
+  // }
   return nativeAppInfo;
 }
 /**

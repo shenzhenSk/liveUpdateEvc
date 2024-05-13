@@ -1,30 +1,29 @@
 <template>
   <div class="app-body">
     <div class="app-content" :key="refreshKey">
-      123
-      <!-- <MultipleMatches></MultipleMatches> -->
-      <!-- <RouterView v-if="loadedKongToken" /> -->
+      <MultipleMatches></MultipleMatches>
+      <RouterView v-if="loadedKongToken" />
     </div>
   </div>
 </template>
 <script setup lang="ts">
-// import MultipleMatches from '@/components/MultipleMatches/index.vue';
+import MultipleMatches from '@/components/MultipleMatches/index.vue';
 import { GlobalStore } from '@/stores';
-import { redirectPage } from '@/hooks/nativeHook';
+import { initRBACInfo, redirectPage } from '@/hooks/nativeHook';
 
 const store = GlobalStore();
 const router = useRouter();
 const route = useRoute();
 const refreshKey = computed(() => store.refreshKey);
-// const loadedKongToken = computed(() => store.loadedKongToken);
-// const hasMounted = ref(false);
-// onMounted(() => {
-//   hasMounted.value = true;
-// });
+const loadedKongToken = computed(() => store.loadedKongToken);
+const hasMounted = ref(false);
+onMounted(() => {
+  hasMounted.value = true;
+});
 
-//init the base data(userInfo,language,bu,store,menu) from native
+// init the base data(userInfo,language,bu,store,menu) from native
 async function initBaseInfo() {
-  // await initRBACInfo();
+  await initRBACInfo();
 }
 initBaseInfo();
 //After the initialization is complete, call redirectPage, if you need to jump。

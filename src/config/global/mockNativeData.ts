@@ -28,6 +28,7 @@ export default {
         id: '6113847737833037825',
         name: 'Inventory',
         parent_id: '0',
+        hasChildren: true,
       },
       {
         code: 'osp-superapp-event-count',
@@ -58,6 +59,7 @@ export default {
         id: '6318558832782852097',
         name: 'Online Orders',
         parent_id: '0',
+        hasChildren: true,
       },
       {
         code: 'osp-superapp-receive-orders',
@@ -68,7 +70,7 @@ export default {
       {
         code: 'osp-superapp-pick-pack-orders',
         id: '6318559348178927617',
-        name: 'Pick \u0026 Pack Orders',
+        name: 'Pick & Pack Orders',
         parent_id: '6318558832782852097',
       },
       {
